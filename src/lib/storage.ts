@@ -1,4 +1,5 @@
 const STORAGE_KEYS = {
+  HAS_SEEN_HELP: 'hasSeenHelp',
   ACTIVE_DATE: 'activeDate',
   TILE_STATE: 'tileState',
   ROLL_COUNT: 'rollCount',
@@ -59,4 +60,12 @@ export function clearGameState(): void {
   Object.values(STORAGE_KEYS).forEach(key => {
     localStorage.removeItem(key);
   });
+}
+
+export function hasSeenHelp(): boolean {
+  return localStorage.getItem(STORAGE_KEYS.HAS_SEEN_HELP) === 'true';
+}
+
+export function markHelpSeen(): void {
+  localStorage.setItem(STORAGE_KEYS.HAS_SEEN_HELP, 'true');
 }

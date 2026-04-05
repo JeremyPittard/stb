@@ -11,6 +11,8 @@ import {
   saveGameState,
   loadGameState,
   clearGameState,
+  hasSeenHelp,
+  markHelpSeen,
   type SavedState,
 } from './lib/storage';
 import { getAdConfig } from './lib/ads';
@@ -69,6 +71,9 @@ function App() {
         selectedTiles: saved.selectedTiles || [],
         isRolling: false,
       });
+      if (!hasSeenHelp()) {
+        setShowHelpModal(true);
+      }
     } else {
       clearGameState();
       setState({
@@ -82,6 +87,9 @@ function App() {
         selectedTiles: [],
         isRolling: false,
       });
+      if (!hasSeenHelp()) {
+        setShowHelpModal(true);
+      }
     }
   }, [activeDateKey]);
 
@@ -408,7 +416,7 @@ function App() {
       )}
 
       {showHelpModal && (
-        <HelpModal onClose={() => setShowHelpModal(false)} />
+        <HelpModal onClose={() => { setShowHelpModal(false); markHelpSeen(); }} />
       )}
     </div>
   );
