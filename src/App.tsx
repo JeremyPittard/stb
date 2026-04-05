@@ -20,6 +20,7 @@ import { Controls } from './components/Controls';
 import { GameOver } from './components/GameOver';
 import { AdModal } from './components/AdModal';
 import { StuckModal } from './components/StuckModal';
+import { HelpModal } from './components/HelpModal';
 import './App.css';
 
 import challengesData from '../challenges.json';
@@ -30,6 +31,8 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [showAdModal, setShowAdModal] = useState(false);
   const [showStuckModal, setShowStuckModal] = useState(false);
+  const [pendingStuckModal, setPendingStuckModal] = useState(false);
+  const [showHelpModal, setShowHelpModal] = useState(false);
 
   const activeDateKey = getActiveDateKey();
 
@@ -116,8 +119,16 @@ function App() {
       const canMakeMove = findSolution(openTiles, diceSum);
 
       if (!canMakeMove) {
-        setShowStuckModal(true);
-        setState(prev => prev && ({ ...prev, isRolling: false }));
+        setState(prev => prev && ({
+          ...prev,
+          rollCount: newRollCount,
+          currentDice: dice,
+          selectedTiles: [],
+        }));
+        setPendingStuckModal(true);
+        setTimeout(() => {
+          setState(prev => prev && ({ ...prev, isRolling: false }));
+        }, 50);
         return;
       }
 
@@ -135,6 +146,13 @@ function App() {
 
     return () => clearTimeout(timeout);
   }, [state?.isRolling]);
+
+  useEffect(() => {
+    if (pendingStuckModal && state && !state.isRolling) {
+      setShowStuckModal(true);
+      setPendingStuckModal(false);
+    }
+  }, [pendingStuckModal, state?.isRolling]);
 
   const handleToggleTile = useCallback((index: number) => {
     if (!state || !state.currentDice) return;
@@ -172,30 +190,14 @@ function App() {
     const score = getScore(newTileState);
     const isWin = score === 0;
 
-    let isBust = false;
-    if (!isWin) {
-      const openTiles = newTileState.filter(t => !t.isShut).map(t => t.value);
-      const allRolls = getDiceForSeed(challenge.seed, 20);
-      let canMakeMove = false;
-      for (const [d1, d2] of allRolls) {
-        if (findSolution(openTiles, d1 + d2)) {
-          canMakeMove = true;
-          break;
-        }
-      }
-      if (!canMakeMove) {
-        isBust = true;
-      }
-    }
-
-    if (isWin || isBust) {
+    if (isWin) {
       setState(prev => prev && ({
         ...prev,
         tileState: newTileState,
         selectedTiles: [],
         currentDice: null,
-        isComplete: isWin || isBust,
-        result: isWin ? 'win' : 'bust',
+        isComplete: true,
+        result: 'win',
         isRolling: false,
       }));
       return;
@@ -213,52 +215,87 @@ function App() {
       const newRollCount = state.rollCount + 1;
       const allRolls = getDiceForSeed(challenge.seed, newRollCount);
       const newDice = allRolls[newRollCount - 1];
+      const diceSum = newDice[0] + newDice[1];
+
+      const openTiles = newTileState.filter(t => !t.isShut).map(t => t.value);
+      const canMakeMove = findSolution(openTiles, diceSum);
+
+      if (!canMakeMove) {
+        setState(prev => prev && ({
+          ...prev,
+          rollCount: newRollCount,
+          currentDice: newDice,
+        }));
+        setPendingStuckModal(true);
+        setTimeout(() => {
+          setState(prev => prev && ({ ...prev, isRolling: false }));
+        }, 50);
+        return;
+      }
 
       setState(prev => prev && ({
         ...prev,
         rollCount: newRollCount,
         currentDice: newDice,
-        isRolling: false,
       }));
+
+      setTimeout(() => {
+        setState(prev => prev && ({ ...prev, isRolling: false }));
+      }, 50);
     }, 400);
   }, [state, challenge]);
 
   const handleAdClose = useCallback((success: boolean) => {
     setShowAdModal(false);
     if (success && state && challenge) {
-      const newRollCount = state.rollCount + 1;
-      const allRolls = getDiceForSeed(challenge.seed, newRollCount);
-      const dice = allRolls[newRollCount - 1];
+      setState(prev => prev && ({ ...prev, isRolling: true }));
 
-      const newTileState = state.tileState;
-      const score = getScore(newTileState);
-      const isWin = score === 0;
+      setTimeout(() => {
+        const newRollCount = state.rollCount + 1;
+        const allRolls = getDiceForSeed(challenge.seed, newRollCount);
+        const dice = allRolls[newRollCount - 1];
+        const diceSum = dice[0] + dice[1];
 
-      let isBust = false;
-      if (!isWin) {
+        const newTileState = state.tileState;
+        const score = getScore(newTileState);
+        const isWin = score === 0;
+
         const openTiles = newTileState.filter(t => !t.isShut).map(t => t.value);
-        const allFutureRolls = getDiceForSeed(challenge.seed, 20);
-        let canMakeMove = false;
-        for (const [d1, d2] of allFutureRolls) {
-          if (findSolution(openTiles, d1 + d2)) {
-            canMakeMove = true;
-            break;
-          }
-        }
-        if (!canMakeMove) {
-          isBust = true;
-        }
-      }
+        const canMakeMove = findSolution(openTiles, diceSum);
 
-      setState(prev => prev && ({
-        ...prev,
-        rollCount: newRollCount,
-        currentDice: dice,
-        burnUsed: true,
-        selectedTiles: [],
-        isComplete: isWin || isBust,
-        result: isWin ? 'win' : (isBust ? 'bust' : null),
-      }));
+        if (isWin) {
+          setState(prev => prev && ({
+            ...prev,
+            rollCount: newRollCount,
+            currentDice: dice,
+            burnUsed: true,
+            selectedTiles: [],
+            isComplete: true,
+            result: 'win',
+            isRolling: false,
+          }));
+        } else if (!canMakeMove) {
+          setState(prev => prev && ({
+            ...prev,
+            rollCount: newRollCount,
+            currentDice: dice,
+            burnUsed: true,
+            selectedTiles: [],
+          }));
+          setPendingStuckModal(true);
+        } else {
+          setState(prev => prev && ({
+            ...prev,
+            rollCount: newRollCount,
+            currentDice: dice,
+            burnUsed: true,
+            selectedTiles: [],
+          }));
+          setTimeout(() => {
+            setState(prev => prev && ({ ...prev, isRolling: false }));
+          }, 50);
+        }
+      }, 400);
     }
   }, [state, challenge]);
 
@@ -266,7 +303,10 @@ function App() {
     return (
       <div className="app">
         <div className="error-screen">
-          <h1>STB</h1>
+          <div className="header">
+            <h1 className="title">STB</h1>
+            <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
+          </div>
           <p className="error-message">{error}</p>
         </div>
       </div>
@@ -276,7 +316,10 @@ function App() {
   if (!state || !challenge) {
     return (
       <div className="app">
-        <div className="loading">Loading...</div>
+        <div className="header">
+          <h1 className="title">STB</h1>
+          <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
+        </div>
       </div>
     );
   }
@@ -290,7 +333,10 @@ function App() {
   if (state.isComplete && state.result) {
     return (
       <div className="app">
-        <h1 className="title">STB</h1>
+        <div className="header">
+          <h1 className="title">STB</h1>
+          <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
+        </div>
         <GameOver
           result={state.result}
           score={score}
@@ -304,7 +350,10 @@ function App() {
 
   return (
     <div className="app">
-      <h1 className="title">STB</h1>
+      <div className="header">
+        <h1 className="title">STB</h1>
+        <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
+      </div>
       <div className="date">{activeDateKey}</div>
       <div className="difficulty">{challenge.difficulty}</div>
 
@@ -329,12 +378,18 @@ function App() {
         canRoll={canRoll}
       />
 
+      <footer className="footer">
+        <button className="footer-btn" onClick={() => setShowHelpModal(true)}>How to Play</button>
+        <a href="/privacy.html" target="_blank">Privacy Policy</a>
+      </footer>
+
       {showAdModal && (
         <AdModal config={getAdConfig()} onClose={handleAdClose} />
       )}
 
       {showStuckModal && (
         <StuckModal 
+          burnUsed={state?.burnUsed ?? false}
           onBurn={() => {
             if (!state?.burnUsed) {
               setShowStuckModal(false);
@@ -350,6 +405,10 @@ function App() {
             setShowStuckModal(false);
           }} 
         />
+      )}
+
+      {showHelpModal && (
+        <HelpModal onClose={() => setShowHelpModal(false)} />
       )}
     </div>
   );

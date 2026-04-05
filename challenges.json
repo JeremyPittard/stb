@@ -14,7 +14,7 @@
       11,
       12
     ],
-    "seed": "delta-moon-18",
+    "seed": "nova-star-58",
     "difficulty": "Hard"
   },
   "2026-01-02": {
@@ -29,7 +29,7 @@
       8,
       9
     ],
-    "seed": "delta-moon-80",
+    "seed": "prime-star-49",
     "difficulty": "Normal"
   },
   "2026-01-03": {
@@ -44,7 +44,7 @@
       8,
       9
     ],
-    "seed": "prime-core-98",
+    "seed": "delta-sun-35",
     "difficulty": "Normal"
   },
   "2026-01-04": {
@@ -62,7 +62,7 @@
       11,
       12
     ],
-    "seed": "gamma-node-44",
+    "seed": "delta-pulse-28",
     "difficulty": "Hard"
   },
   "2026-01-05": {
@@ -77,7 +77,7 @@
       8,
       9
     ],
-    "seed": "beta-star-29",
+    "seed": "alpha-wave-89",
     "difficulty": "Normal"
   },
   "2026-01-06": {
@@ -93,7 +93,7 @@
       9,
       10
     ],
-    "seed": "solar-sun-40",
+    "seed": "nova-moon-81",
     "difficulty": "Hard"
   },
   "2026-01-07": {
@@ -111,7 +111,7 @@
       11,
       12
     ],
-    "seed": "beta-moon-63",
+    "seed": "prime-prime-55",
     "difficulty": "Hard"
   },
   "2026-01-08": {
@@ -126,7 +126,7 @@
       8,
       9
     ],
-    "seed": "solar-star-18",
+    "seed": "delta-wave-65",
     "difficulty": "Normal"
   },
   "2026-01-09": {
@@ -141,7 +141,7 @@
       8,
       9
     ],
-    "seed": "beta-prime-79",
+    "seed": "gamma-sun-82",
     "difficulty": "Normal"
   },
   "2026-01-10": {
@@ -159,7 +159,7 @@
       11,
       12
     ],
-    "seed": "zero-sun-35",
+    "seed": "nova-wave-18",
     "difficulty": "Hard"
   },
   "2026-01-11": {
@@ -175,7 +175,7 @@
       9,
       10
     ],
-    "seed": "beta-sun-25",
+    "seed": "beta-node-63",
     "difficulty": "Hard"
   },
   "2026-01-12": {
@@ -190,7 +190,7 @@
       8,
       9
     ],
-    "seed": "lunar-flux-54",
+    "seed": "solar-star-94",
     "difficulty": "Normal"
   },
   "2026-01-13": {
@@ -208,7 +208,7 @@
       11,
       12
     ],
-    "seed": "lunar-star-21",
+    "seed": "gamma-core-37",
     "difficulty": "Hard"
   },
   "2026-01-14": {
@@ -223,7 +223,7 @@
       8,
       9
     ],
-    "seed": "omega-sun-78",
+    "seed": "zero-omega-37",
     "difficulty": "Normal"
   },
   "2026-01-15": {
@@ -238,7 +238,7 @@
       8,
       9
     ],
-    "seed": "nova-pulse-72",
+    "seed": "nova-prime-37",
     "difficulty": "Normal"
   },
   "2026-01-16": {
@@ -256,7 +256,7 @@
       11,
       12
     ],
-    "seed": "solar-omega-49",
+    "seed": "prime-pulse-94",
     "difficulty": "Hard"
   },
   "2026-01-17": {
@@ -271,7 +271,7 @@
       8,
       9
     ],
-    "seed": "prime-node-19",
+    "seed": "solar-flux-39",
     "difficulty": "Normal"
   },
   "2026-01-18": {
@@ -286,7 +286,7 @@
       8,
       9
     ],
-    "seed": "lunar-omega-84",
+    "seed": "alpha-moon-75",
     "difficulty": "Normal"
   },
   "2026-01-19": {
@@ -304,7 +304,7 @@
       11,
       12
     ],
-    "seed": "zero-flux-55",
+    "seed": "delta-prime-93",
     "difficulty": "Hard"
   },
   "2026-01-20": {
@@ -319,7 +319,7 @@
       8,
       9
     ],
-    "seed": "gamma-prime-78",
+    "seed": "delta-prime-57",
     "difficulty": "Normal"
   },
   "2026-01-21": {
@@ -335,7 +335,7 @@
       9,
       10
     ],
-    "seed": "beta-moon-17",
+    "seed": "zero-flux-22",
     "difficulty": "Hard"
   },
   "2026-01-22": {
@@ -353,7 +353,7 @@
       11,
       12
     ],
-    "seed": "alpha-star-96",
+    "seed": "solar-sun-59",
     "difficulty": "Hard"
   },
   "2026-01-23": {
@@ -368,7 +368,7 @@
       8,
       9
     ],
-    "seed": "delta-moon-37",
+    "seed": "lunar-star-90",
     "difficulty": "Normal"
   },
   "2026-01-24": {
@@ -383,7 +383,7 @@
       8,
       9
     ],
-    "seed": "solar-pulse-99",
+    "seed": "alpha-node-35",
     "difficulty": "Normal"
   },
   "2026-01-25": {
@@ -401,7 +401,7 @@
       11,
       12
     ],
-    "seed": "solar-prime-47",
+    "seed": "prime-omega-60",
     "difficulty": "Hard"
   },
   "2026-01-26": {
@@ -417,7 +417,7 @@
       9,
       10
     ],
-    "seed": "delta-flux-84",
+    "seed": "gamma-prime-62",
     "difficulty": "Hard"
   },
   "2026-01-27": {
@@ -432,7 +432,7 @@
       8,
       9
     ],
-    "seed": "omega-node-79",
+    "seed": "beta-moon-15",
     "difficulty": "Normal"
   },
   "2026-01-28": {
@@ -450,7 +450,7 @@
       11,
       12
     ],
-    "seed": "lunar-flux-59",
+    "seed": "zero-core-75",
     "difficulty": "Hard"
   },
   "2026-01-29": {
@@ -465,7 +465,7 @@
       8,
       9
     ],
-    "seed": "prime-flux-60",
+    "seed": "prime-pulse-17",
     "difficulty": "Normal"
   },
   "2026-01-30": {
@@ -480,7 +480,7 @@
       8,
       9
     ],
-    "seed": "prime-sun-15",
+    "seed": "nova-star-59",
     "difficulty": "Normal"
   },
   "2026-01-31": {
@@ -498,7 +498,7 @@
       11,
       12
     ],
-    "seed": "omega-omega-41",
+    "seed": "nova-pulse-97",
     "difficulty": "Hard"
   },
   "2026-02-01": {
@@ -513,7 +513,7 @@
       8,
       9
     ],
-    "seed": "omega-moon-57",
+    "seed": "prime-flux-85",
     "difficulty": "Normal"
   },
   "2026-02-02": {
@@ -528,7 +528,7 @@
       8,
       9
     ],
-    "seed": "zero-omega-17",
+    "seed": "nova-pulse-66",
     "difficulty": "Normal"
   },
   "2026-02-03": {
@@ -546,7 +546,7 @@
       11,
       12
     ],
-    "seed": "zero-pulse-47",
+    "seed": "zero-core-87",
     "difficulty": "Hard"
   },
   "2026-02-04": {
@@ -561,7 +561,7 @@
       8,
       9
     ],
-    "seed": "zero-sun-66",
+    "seed": "lunar-omega-72",
     "difficulty": "Normal"
   },
   "2026-02-05": {
@@ -577,7 +577,7 @@
       9,
       10
     ],
-    "seed": "gamma-flux-59",
+    "seed": "prime-sun-57",
     "difficulty": "Hard"
   },
   "2026-02-06": {
@@ -595,7 +595,7 @@
       11,
       12
     ],
-    "seed": "omega-moon-20",
+    "seed": "nova-prime-15",
     "difficulty": "Hard"
   },
   "2026-02-07": {
@@ -610,7 +610,7 @@
       8,
       9
     ],
-    "seed": "solar-node-72",
+    "seed": "zero-pulse-80",
     "difficulty": "Normal"
   },
   "2026-02-08": {
@@ -625,7 +625,7 @@
       8,
       9
     ],
-    "seed": "omega-sun-12",
+    "seed": "alpha-core-41",
     "difficulty": "Normal"
   },
   "2026-02-09": {
@@ -643,7 +643,7 @@
       11,
       12
     ],
-    "seed": "delta-pulse-31",
+    "seed": "prime-flux-23",
     "difficulty": "Hard"
   },
   "2026-02-10": {
@@ -659,7 +659,7 @@
       9,
       10
     ],
-    "seed": "delta-prime-49",
+    "seed": "solar-flux-93",
     "difficulty": "Hard"
   },
   "2026-02-11": {
@@ -674,7 +674,7 @@
       8,
       9
     ],
-    "seed": "beta-omega-13",
+    "seed": "solar-core-54",
     "difficulty": "Normal"
   },
   "2026-02-12": {
@@ -692,7 +692,7 @@
       11,
       12
     ],
-    "seed": "solar-star-44",
+    "seed": "zero-wave-78",
     "difficulty": "Hard"
   },
   "2026-02-13": {
@@ -707,7 +707,7 @@
       8,
       9
     ],
-    "seed": "zero-sun-49",
+    "seed": "lunar-pulse-78",
     "difficulty": "Normal"
   },
   "2026-02-14": {
@@ -722,7 +722,7 @@
       8,
       9
     ],
-    "seed": "solar-omega-97",
+    "seed": "nova-prime-50",
     "difficulty": "Normal"
   },
   "2026-02-15": {
@@ -740,7 +740,7 @@
       11,
       12
     ],
-    "seed": "prime-star-70",
+    "seed": "omega-flux-36",
     "difficulty": "Hard"
   },
   "2026-02-16": {
@@ -755,7 +755,7 @@
       8,
       9
     ],
-    "seed": "gamma-sun-18",
+    "seed": "zero-node-92",
     "difficulty": "Normal"
   },
   "2026-02-17": {
@@ -770,7 +770,7 @@
       8,
       9
     ],
-    "seed": "alpha-pulse-20",
+    "seed": "solar-sun-49",
     "difficulty": "Normal"
   },
   "2026-02-18": {
@@ -788,7 +788,7 @@
       11,
       12
     ],
-    "seed": "alpha-star-76",
+    "seed": "gamma-pulse-69",
     "difficulty": "Hard"
   },
   "2026-02-19": {
@@ -803,7 +803,7 @@
       8,
       9
     ],
-    "seed": "beta-flux-91",
+    "seed": "alpha-flux-54",
     "difficulty": "Normal"
   },
   "2026-02-20": {
@@ -819,7 +819,7 @@
       9,
       10
     ],
-    "seed": "delta-prime-52",
+    "seed": "lunar-sun-73",
     "difficulty": "Hard"
   },
   "2026-02-21": {
@@ -837,7 +837,7 @@
       11,
       12
     ],
-    "seed": "omega-moon-98",
+    "seed": "delta-core-90",
     "difficulty": "Hard"
   },
   "2026-02-22": {
@@ -852,7 +852,7 @@
       8,
       9
     ],
-    "seed": "solar-sun-78",
+    "seed": "zero-prime-78",
     "difficulty": "Normal"
   },
   "2026-02-23": {
@@ -867,7 +867,7 @@
       8,
       9
     ],
-    "seed": "lunar-star-21",
+    "seed": "beta-flux-50",
     "difficulty": "Normal"
   },
   "2026-02-24": {
@@ -885,7 +885,7 @@
       11,
       12
     ],
-    "seed": "prime-node-46",
+    "seed": "prime-omega-75",
     "difficulty": "Hard"
   },
   "2026-02-25": {
@@ -901,7 +901,7 @@
       9,
       10
     ],
-    "seed": "prime-star-29",
+    "seed": "prime-wave-65",
     "difficulty": "Hard"
   },
   "2026-02-26": {
@@ -916,7 +916,7 @@
       8,
       9
     ],
-    "seed": "solar-prime-62",
+    "seed": "alpha-sun-54",
     "difficulty": "Normal"
   },
   "2026-02-27": {
@@ -934,7 +934,7 @@
       11,
       12
     ],
-    "seed": "solar-core-40",
+    "seed": "nova-sun-75",
     "difficulty": "Hard"
   },
   "2026-02-28": {
@@ -949,7 +949,7 @@
       8,
       9
     ],
-    "seed": "beta-core-94",
+    "seed": "lunar-star-66",
     "difficulty": "Normal"
   },
   "2026-03-01": {
@@ -964,7 +964,7 @@
       8,
       9
     ],
-    "seed": "omega-omega-21",
+    "seed": "beta-prime-63",
     "difficulty": "Normal"
   },
   "2026-03-02": {
@@ -982,7 +982,7 @@
       11,
       12
     ],
-    "seed": "alpha-star-80",
+    "seed": "gamma-prime-40",
     "difficulty": "Hard"
   },
   "2026-03-03": {
@@ -997,7 +997,7 @@
       8,
       9
     ],
-    "seed": "omega-core-76",
+    "seed": "gamma-omega-43",
     "difficulty": "Normal"
   },
   "2026-03-04": {
@@ -1012,7 +1012,7 @@
       8,
       9
     ],
-    "seed": "beta-prime-43",
+    "seed": "prime-wave-39",
     "difficulty": "Normal"
   },
   "2026-03-05": {
@@ -1030,7 +1030,7 @@
       11,
       12
     ],
-    "seed": "zero-star-95",
+    "seed": "lunar-prime-61",
     "difficulty": "Hard"
   },
   "2026-03-06": {
@@ -1045,7 +1045,7 @@
       8,
       9
     ],
-    "seed": "gamma-sun-21",
+    "seed": "nova-sun-14",
     "difficulty": "Normal"
   },
   "2026-03-07": {
@@ -1061,7 +1061,7 @@
       9,
       10
     ],
-    "seed": "omega-moon-96",
+    "seed": "zero-pulse-49",
     "difficulty": "Hard"
   },
   "2026-03-08": {
@@ -1079,7 +1079,7 @@
       11,
       12
     ],
-    "seed": "alpha-omega-41",
+    "seed": "gamma-wave-78",
     "difficulty": "Hard"
   },
   "2026-03-09": {
@@ -1094,7 +1094,7 @@
       8,
       9
     ],
-    "seed": "beta-pulse-20",
+    "seed": "zero-prime-79",
     "difficulty": "Normal"
   },
   "2026-03-10": {
@@ -1109,7 +1109,7 @@
       8,
       9
     ],
-    "seed": "solar-star-87",
+    "seed": "prime-wave-72",
     "difficulty": "Normal"
   },
   "2026-03-11": {
@@ -1127,7 +1127,7 @@
       11,
       12
     ],
-    "seed": "omega-node-22",
+    "seed": "omega-core-82",
     "difficulty": "Hard"
   },
   "2026-03-12": {
@@ -1143,7 +1143,7 @@
       9,
       10
     ],
-    "seed": "nova-star-62",
+    "seed": "gamma-pulse-52",
     "difficulty": "Hard"
   },
   "2026-03-13": {
@@ -1158,7 +1158,7 @@
       8,
       9
     ],
-    "seed": "solar-wave-81",
+    "seed": "omega-flux-38",
     "difficulty": "Normal"
   },
   "2026-03-14": {
@@ -1176,7 +1176,7 @@
       11,
       12
     ],
-    "seed": "alpha-prime-55",
+    "seed": "lunar-prime-54",
     "difficulty": "Hard"
   },
   "2026-03-15": {
@@ -1191,7 +1191,7 @@
       8,
       9
     ],
-    "seed": "alpha-pulse-54",
+    "seed": "beta-prime-54",
     "difficulty": "Normal"
   },
   "2026-03-16": {
@@ -1206,7 +1206,7 @@
       8,
       9
     ],
-    "seed": "solar-pulse-49",
+    "seed": "beta-star-60",
     "difficulty": "Normal"
   },
   "2026-03-17": {
@@ -1224,7 +1224,7 @@
       11,
       12
     ],
-    "seed": "nova-sun-13",
+    "seed": "omega-core-63",
     "difficulty": "Hard"
   },
   "2026-03-18": {
@@ -1239,7 +1239,7 @@
       8,
       9
     ],
-    "seed": "omega-core-16",
+    "seed": "beta-sun-95",
     "difficulty": "Normal"
   },
   "2026-03-19": {
@@ -1254,7 +1254,7 @@
       8,
       9
     ],
-    "seed": "gamma-wave-61",
+    "seed": "nova-node-99",
     "difficulty": "Normal"
   },
   "2026-03-20": {
@@ -1272,7 +1272,7 @@
       11,
       12
     ],
-    "seed": "delta-moon-24",
+    "seed": "solar-node-52",
     "difficulty": "Hard"
   },
   "2026-03-21": {
@@ -1287,7 +1287,7 @@
       8,
       9
     ],
-    "seed": "beta-star-94",
+    "seed": "zero-pulse-89",
     "difficulty": "Normal"
   },
   "2026-03-22": {
@@ -1303,7 +1303,7 @@
       9,
       10
     ],
-    "seed": "alpha-star-97",
+    "seed": "delta-wave-99",
     "difficulty": "Hard"
   },
   "2026-03-23": {
@@ -1321,7 +1321,7 @@
       11,
       12
     ],
-    "seed": "alpha-star-45",
+    "seed": "nova-core-81",
     "difficulty": "Hard"
   },
   "2026-03-24": {
@@ -1336,7 +1336,7 @@
       8,
       9
     ],
-    "seed": "zero-moon-49",
+    "seed": "solar-star-46",
     "difficulty": "Normal"
   },
   "2026-03-25": {
@@ -1351,7 +1351,7 @@
       8,
       9
     ],
-    "seed": "prime-node-51",
+    "seed": "omega-node-49",
     "difficulty": "Normal"
   },
   "2026-03-26": {
@@ -1369,7 +1369,7 @@
       11,
       12
     ],
-    "seed": "prime-wave-96",
+    "seed": "omega-wave-94",
     "difficulty": "Hard"
   },
   "2026-03-27": {
@@ -1385,7 +1385,7 @@
       9,
       10
     ],
-    "seed": "solar-moon-72",
+    "seed": "omega-star-13",
     "difficulty": "Hard"
   },
   "2026-03-28": {
@@ -1400,7 +1400,7 @@
       8,
       9
     ],
-    "seed": "lunar-omega-16",
+    "seed": "prime-prime-72",
     "difficulty": "Normal"
   },
   "2026-03-29": {
@@ -1418,7 +1418,7 @@
       11,
       12
     ],
-    "seed": "zero-omega-75",
+    "seed": "gamma-node-22",
     "difficulty": "Hard"
   },
   "2026-03-30": {
@@ -1433,7 +1433,7 @@
       8,
       9
     ],
-    "seed": "alpha-moon-78",
+    "seed": "lunar-core-20",
     "difficulty": "Normal"
   },
   "2026-03-31": {
@@ -1448,7 +1448,7 @@
       8,
       9
     ],
-    "seed": "zero-prime-25",
+    "seed": "delta-moon-98",
     "difficulty": "Normal"
   },
   "2026-04-01": {
@@ -1466,7 +1466,7 @@
       11,
       12
     ],
-    "seed": "alpha-sun-81",
+    "seed": "alpha-moon-39",
     "difficulty": "Hard"
   },
   "2026-04-02": {
@@ -1481,7 +1481,7 @@
       8,
       9
     ],
-    "seed": "delta-core-71",
+    "seed": "alpha-node-15",
     "difficulty": "Normal"
   },
   "2026-04-03": {
@@ -1496,7 +1496,7 @@
       8,
       9
     ],
-    "seed": "beta-flux-88",
+    "seed": "alpha-omega-81",
     "difficulty": "Normal"
   },
   "2026-04-04": {
@@ -1514,7 +1514,7 @@
       11,
       12
     ],
-    "seed": "omega-pulse-47",
+    "seed": "gamma-moon-57",
     "difficulty": "Hard"
   },
   "2026-04-05": {
@@ -1529,7 +1529,7 @@
       8,
       9
     ],
-    "seed": "beta-omega-96",
+    "seed": "gamma-prime-35",
     "difficulty": "Normal"
   },
   "2026-04-06": {
@@ -1545,7 +1545,7 @@
       9,
       10
     ],
-    "seed": "prime-prime-12",
+    "seed": "prime-flux-38",
     "difficulty": "Hard"
   },
   "2026-04-07": {
@@ -1563,7 +1563,7 @@
       11,
       12
     ],
-    "seed": "gamma-sun-14",
+    "seed": "nova-flux-82",
     "difficulty": "Hard"
   },
   "2026-04-08": {
@@ -1578,7 +1578,7 @@
       8,
       9
     ],
-    "seed": "beta-star-20",
+    "seed": "nova-star-88",
     "difficulty": "Normal"
   },
   "2026-04-09": {
@@ -1593,7 +1593,7 @@
       8,
       9
     ],
-    "seed": "solar-core-98",
+    "seed": "zero-node-68",
     "difficulty": "Normal"
   },
   "2026-04-10": {
@@ -1611,7 +1611,7 @@
       11,
       12
     ],
-    "seed": "beta-flux-74",
+    "seed": "beta-moon-89",
     "difficulty": "Hard"
   },
   "2026-04-11": {
@@ -1627,7 +1627,7 @@
       9,
       10
     ],
-    "seed": "omega-sun-90",
+    "seed": "prime-wave-41",
     "difficulty": "Hard"
   },
   "2026-04-12": {
@@ -1642,7 +1642,7 @@
       8,
       9
     ],
-    "seed": "zero-star-33",
+    "seed": "prime-sun-18",
     "difficulty": "Normal"
   },
   "2026-04-13": {
@@ -1660,7 +1660,7 @@
       11,
       12
     ],
-    "seed": "lunar-sun-12",
+    "seed": "beta-star-43",
     "difficulty": "Hard"
   },
   "2026-04-14": {
@@ -1675,7 +1675,7 @@
       8,
       9
     ],
-    "seed": "zero-pulse-21",
+    "seed": "solar-pulse-94",
     "difficulty": "Normal"
   },
   "2026-04-15": {
@@ -1690,7 +1690,7 @@
       8,
       9
     ],
-    "seed": "omega-pulse-11",
+    "seed": "prime-wave-20",
     "difficulty": "Normal"
   },
   "2026-04-16": {
@@ -1708,7 +1708,7 @@
       11,
       12
     ],
-    "seed": "omega-flux-81",
+    "seed": "lunar-sun-12",
     "difficulty": "Hard"
   },
   "2026-04-17": {
@@ -1723,7 +1723,7 @@
       8,
       9
     ],
-    "seed": "lunar-pulse-34",
+    "seed": "delta-core-85",
     "difficulty": "Normal"
   },
   "2026-04-18": {
@@ -1738,7 +1738,7 @@
       8,
       9
     ],
-    "seed": "zero-core-10",
+    "seed": "delta-node-48",
     "difficulty": "Normal"
   },
   "2026-04-19": {
@@ -1756,7 +1756,7 @@
       11,
       12
     ],
-    "seed": "solar-omega-46",
+    "seed": "prime-sun-80",
     "difficulty": "Hard"
   },
   "2026-04-20": {
@@ -1771,7 +1771,7 @@
       8,
       9
     ],
-    "seed": "gamma-omega-45",
+    "seed": "beta-omega-64",
     "difficulty": "Normal"
   },
   "2026-04-21": {
@@ -1787,7 +1787,7 @@
       9,
       10
     ],
-    "seed": "nova-wave-61",
+    "seed": "beta-moon-94",
     "difficulty": "Hard"
   },
   "2026-04-22": {
@@ -1805,7 +1805,7 @@
       11,
       12
     ],
-    "seed": "solar-pulse-72",
+    "seed": "prime-core-55",
     "difficulty": "Hard"
   },
   "2026-04-23": {
@@ -1820,7 +1820,7 @@
       8,
       9
     ],
-    "seed": "lunar-node-55",
+    "seed": "omega-omega-14",
     "difficulty": "Normal"
   },
   "2026-04-24": {
@@ -1835,7 +1835,7 @@
       8,
       9
     ],
-    "seed": "omega-omega-52",
+    "seed": "solar-star-83",
     "difficulty": "Normal"
   },
   "2026-04-25": {
@@ -1853,7 +1853,7 @@
       11,
       12
     ],
-    "seed": "gamma-core-65",
+    "seed": "beta-sun-38",
     "difficulty": "Hard"
   },
   "2026-04-26": {
@@ -1869,7 +1869,7 @@
       9,
       10
     ],
-    "seed": "zero-sun-14",
+    "seed": "gamma-star-56",
     "difficulty": "Hard"
   },
   "2026-04-27": {
@@ -1884,7 +1884,7 @@
       8,
       9
     ],
-    "seed": "delta-flux-79",
+    "seed": "gamma-omega-49",
     "difficulty": "Normal"
   },
   "2026-04-28": {
@@ -1902,7 +1902,7 @@
       11,
       12
     ],
-    "seed": "nova-sun-22",
+    "seed": "omega-sun-40",
     "difficulty": "Hard"
   },
   "2026-04-29": {
@@ -1917,7 +1917,7 @@
       8,
       9
     ],
-    "seed": "omega-star-74",
+    "seed": "omega-prime-97",
     "difficulty": "Normal"
   },
   "2026-04-30": {
@@ -1932,7 +1932,7 @@
       8,
       9
     ],
-    "seed": "solar-star-65",
+    "seed": "nova-wave-38",
     "difficulty": "Normal"
   },
   "2026-05-01": {
@@ -1950,7 +1950,7 @@
       11,
       12
     ],
-    "seed": "gamma-omega-14",
+    "seed": "delta-omega-13",
     "difficulty": "Hard"
   },
   "2026-05-02": {
@@ -1965,7 +1965,7 @@
       8,
       9
     ],
-    "seed": "alpha-omega-24",
+    "seed": "nova-flux-32",
     "difficulty": "Normal"
   },
   "2026-05-03": {
@@ -1980,7 +1980,7 @@
       8,
       9
     ],
-    "seed": "beta-pulse-43",
+    "seed": "omega-node-92",
     "difficulty": "Normal"
   },
   "2026-05-04": {
@@ -1998,7 +1998,7 @@
       11,
       12
     ],
-    "seed": "solar-sun-86",
+    "seed": "zero-sun-45",
     "difficulty": "Hard"
   },
   "2026-05-05": {
@@ -2013,7 +2013,7 @@
       8,
       9
     ],
-    "seed": "gamma-core-26",
+    "seed": "solar-prime-35",
     "difficulty": "Normal"
   },
   "2026-05-06": {
@@ -2029,7 +2029,7 @@
       9,
       10
     ],
-    "seed": "beta-prime-16",
+    "seed": "nova-prime-36",
     "difficulty": "Hard"
   },
   "2026-05-07": {
@@ -2047,7 +2047,7 @@
       11,
       12
     ],
-    "seed": "alpha-flux-39",
+    "seed": "solar-flux-42",
     "difficulty": "Hard"
   },
   "2026-05-08": {
@@ -2062,7 +2062,7 @@
       8,
       9
     ],
-    "seed": "omega-star-72",
+    "seed": "omega-omega-34",
     "difficulty": "Normal"
   },
   "2026-05-09": {
@@ -2077,7 +2077,7 @@
       8,
       9
     ],
-    "seed": "omega-moon-46",
+    "seed": "zero-star-40",
     "difficulty": "Normal"
   },
   "2026-05-10": {
@@ -2095,7 +2095,7 @@
       11,
       12
     ],
-    "seed": "zero-core-86",
+    "seed": "omega-pulse-54",
     "difficulty": "Hard"
   },
   "2026-05-11": {
@@ -2111,7 +2111,7 @@
       9,
       10
     ],
-    "seed": "solar-wave-86",
+    "seed": "lunar-star-66",
     "difficulty": "Hard"
   },
   "2026-05-12": {
@@ -2126,7 +2126,7 @@
       8,
       9
     ],
-    "seed": "nova-wave-95",
+    "seed": "solar-prime-83",
     "difficulty": "Normal"
   },
   "2026-05-13": {
@@ -2144,7 +2144,7 @@
       11,
       12
     ],
-    "seed": "zero-flux-89",
+    "seed": "prime-omega-42",
     "difficulty": "Hard"
   },
   "2026-05-14": {
@@ -2159,7 +2159,7 @@
       8,
       9
     ],
-    "seed": "nova-flux-76",
+    "seed": "lunar-sun-30",
     "difficulty": "Normal"
   },
   "2026-05-15": {
@@ -2174,7 +2174,7 @@
       8,
       9
     ],
-    "seed": "gamma-wave-18",
+    "seed": "delta-pulse-57",
     "difficulty": "Normal"
   },
   "2026-05-16": {
@@ -2192,7 +2192,7 @@
       11,
       12
     ],
-    "seed": "solar-moon-85",
+    "seed": "lunar-prime-24",
     "difficulty": "Hard"
   },
   "2026-05-17": {
@@ -2207,7 +2207,7 @@
       8,
       9
     ],
-    "seed": "beta-core-42",
+    "seed": "lunar-flux-79",
     "difficulty": "Normal"
   },
   "2026-05-18": {
@@ -2222,7 +2222,7 @@
       8,
       9
     ],
-    "seed": "alpha-sun-57",
+    "seed": "alpha-sun-91",
     "difficulty": "Normal"
   },
   "2026-05-19": {
@@ -2240,7 +2240,7 @@
       11,
       12
     ],
-    "seed": "omega-omega-49",
+    "seed": "nova-node-53",
     "difficulty": "Hard"
   },
   "2026-05-20": {
@@ -2255,7 +2255,7 @@
       8,
       9
     ],
-    "seed": "lunar-sun-49",
+    "seed": "solar-moon-74",
     "difficulty": "Normal"
   },
   "2026-05-21": {
@@ -2271,7 +2271,7 @@
       9,
       10
     ],
-    "seed": "lunar-sun-13",
+    "seed": "zero-core-21",
     "difficulty": "Hard"
   },
   "2026-05-22": {
@@ -2289,7 +2289,7 @@
       11,
       12
     ],
-    "seed": "alpha-moon-31",
+    "seed": "omega-core-63",
     "difficulty": "Hard"
   },
   "2026-05-23": {
@@ -2304,7 +2304,7 @@
       8,
       9
     ],
-    "seed": "zero-core-10",
+    "seed": "nova-moon-42",
     "difficulty": "Normal"
   },
   "2026-05-24": {
@@ -2319,7 +2319,7 @@
       8,
       9
     ],
-    "seed": "omega-wave-88",
+    "seed": "prime-core-69",
     "difficulty": "Normal"
   },
   "2026-05-25": {
@@ -2337,7 +2337,7 @@
       11,
       12
     ],
-    "seed": "omega-wave-66",
+    "seed": "lunar-star-49",
     "difficulty": "Hard"
   },
   "2026-05-26": {
@@ -2353,7 +2353,7 @@
       9,
       10
     ],
-    "seed": "prime-core-17",
+    "seed": "delta-star-65",
     "difficulty": "Hard"
   },
   "2026-05-27": {
@@ -2368,7 +2368,7 @@
       8,
       9
     ],
-    "seed": "gamma-flux-25",
+    "seed": "omega-omega-48",
     "difficulty": "Normal"
   },
   "2026-05-28": {
@@ -2386,7 +2386,7 @@
       11,
       12
     ],
-    "seed": "gamma-omega-10",
+    "seed": "lunar-star-49",
     "difficulty": "Hard"
   },
   "2026-05-29": {
@@ -2401,7 +2401,7 @@
       8,
       9
     ],
-    "seed": "lunar-omega-93",
+    "seed": "zero-sun-11",
     "difficulty": "Normal"
   },
   "2026-05-30": {
@@ -2416,7 +2416,7 @@
       8,
       9
     ],
-    "seed": "alpha-core-89",
+    "seed": "omega-core-40",
     "difficulty": "Normal"
   },
   "2026-05-31": {
@@ -2434,7 +2434,7 @@
       11,
       12
     ],
-    "seed": "lunar-prime-32",
+    "seed": "prime-moon-54",
     "difficulty": "Hard"
   },
   "2026-06-01": {
@@ -2449,7 +2449,7 @@
       8,
       9
     ],
-    "seed": "zero-prime-10",
+    "seed": "beta-star-82",
     "difficulty": "Normal"
   },
   "2026-06-02": {
@@ -2464,7 +2464,7 @@
       8,
       9
     ],
-    "seed": "nova-node-14",
+    "seed": "nova-omega-65",
     "difficulty": "Normal"
   },
   "2026-06-03": {
@@ -2482,7 +2482,7 @@
       11,
       12
     ],
-    "seed": "solar-star-43",
+    "seed": "alpha-wave-34",
     "difficulty": "Hard"
   },
   "2026-06-04": {
@@ -2497,7 +2497,7 @@
       8,
       9
     ],
-    "seed": "prime-core-73",
+    "seed": "nova-sun-86",
     "difficulty": "Normal"
   },
   "2026-06-05": {
@@ -2513,7 +2513,7 @@
       9,
       10
     ],
-    "seed": "lunar-sun-22",
+    "seed": "delta-core-55",
     "difficulty": "Hard"
   },
   "2026-06-06": {
@@ -2531,7 +2531,7 @@
       11,
       12
     ],
-    "seed": "delta-node-14",
+    "seed": "beta-omega-72",
     "difficulty": "Hard"
   },
   "2026-06-07": {
@@ -2546,7 +2546,7 @@
       8,
       9
     ],
-    "seed": "delta-prime-48",
+    "seed": "delta-moon-66",
     "difficulty": "Normal"
   },
   "2026-06-08": {
@@ -2561,7 +2561,7 @@
       8,
       9
     ],
-    "seed": "prime-star-57",
+    "seed": "gamma-omega-52",
     "difficulty": "Normal"
   },
   "2026-06-09": {
@@ -2579,7 +2579,7 @@
       11,
       12
     ],
-    "seed": "zero-core-39",
+    "seed": "solar-sun-95",
     "difficulty": "Hard"
   },
   "2026-06-10": {
@@ -2595,7 +2595,7 @@
       9,
       10
     ],
-    "seed": "nova-wave-56",
+    "seed": "solar-node-32",
     "difficulty": "Hard"
   },
   "2026-06-11": {
@@ -2610,7 +2610,7 @@
       8,
       9
     ],
-    "seed": "prime-core-39",
+    "seed": "nova-moon-40",
     "difficulty": "Normal"
   },
   "2026-06-12": {
@@ -2628,7 +2628,7 @@
       11,
       12
     ],
-    "seed": "solar-node-18",
+    "seed": "alpha-omega-66",
     "difficulty": "Hard"
   },
   "2026-06-13": {
@@ -2643,7 +2643,7 @@
       8,
       9
     ],
-    "seed": "solar-star-28",
+    "seed": "delta-node-53",
     "difficulty": "Normal"
   },
   "2026-06-14": {
@@ -2658,7 +2658,7 @@
       8,
       9
     ],
-    "seed": "lunar-node-36",
+    "seed": "zero-omega-81",
     "difficulty": "Normal"
   },
   "2026-06-15": {
@@ -2676,7 +2676,7 @@
       11,
       12
     ],
-    "seed": "prime-wave-49",
+    "seed": "gamma-node-10",
     "difficulty": "Hard"
   },
   "2026-06-16": {
@@ -2691,7 +2691,7 @@
       8,
       9
     ],
-    "seed": "zero-sun-71",
+    "seed": "nova-moon-63",
     "difficulty": "Normal"
   },
   "2026-06-17": {
@@ -2706,7 +2706,7 @@
       8,
       9
     ],
-    "seed": "lunar-flux-94",
+    "seed": "alpha-flux-16",
     "difficulty": "Normal"
   },
   "2026-06-18": {
@@ -2724,7 +2724,7 @@
       11,
       12
     ],
-    "seed": "prime-node-88",
+    "seed": "lunar-omega-84",
     "difficulty": "Hard"
   },
   "2026-06-19": {
@@ -2739,7 +2739,7 @@
       8,
       9
     ],
-    "seed": "alpha-star-30",
+    "seed": "nova-wave-64",
     "difficulty": "Normal"
   },
   "2026-06-20": {
@@ -2755,7 +2755,7 @@
       9,
       10
     ],
-    "seed": "beta-star-99",
+    "seed": "nova-prime-77",
     "difficulty": "Hard"
   },
   "2026-06-21": {
@@ -2773,7 +2773,7 @@
       11,
       12
     ],
-    "seed": "nova-node-53",
+    "seed": "prime-pulse-33",
     "difficulty": "Hard"
   },
   "2026-06-22": {
@@ -2788,7 +2788,7 @@
       8,
       9
     ],
-    "seed": "zero-core-86",
+    "seed": "omega-prime-22",
     "difficulty": "Normal"
   },
   "2026-06-23": {
@@ -2803,7 +2803,7 @@
       8,
       9
     ],
-    "seed": "alpha-moon-50",
+    "seed": "zero-moon-91",
     "difficulty": "Normal"
   },
   "2026-06-24": {
@@ -2821,7 +2821,7 @@
       11,
       12
     ],
-    "seed": "delta-sun-88",
+    "seed": "alpha-omega-50",
     "difficulty": "Hard"
   },
   "2026-06-25": {
@@ -2837,7 +2837,7 @@
       9,
       10
     ],
-    "seed": "nova-core-45",
+    "seed": "prime-pulse-60",
     "difficulty": "Hard"
   },
   "2026-06-26": {
@@ -2852,7 +2852,7 @@
       8,
       9
     ],
-    "seed": "beta-node-97",
+    "seed": "gamma-moon-31",
     "difficulty": "Normal"
   },
   "2026-06-27": {
@@ -2870,7 +2870,7 @@
       11,
       12
     ],
-    "seed": "alpha-prime-11",
+    "seed": "nova-wave-18",
     "difficulty": "Hard"
   },
   "2026-06-28": {
@@ -2885,7 +2885,7 @@
       8,
       9
     ],
-    "seed": "nova-sun-42",
+    "seed": "omega-moon-50",
     "difficulty": "Normal"
   },
   "2026-06-29": {
@@ -2900,7 +2900,7 @@
       8,
       9
     ],
-    "seed": "zero-pulse-89",
+    "seed": "zero-flux-53",
     "difficulty": "Normal"
   },
   "2026-06-30": {
@@ -2918,7 +2918,7 @@
       11,
       12
     ],
-    "seed": "prime-moon-15",
+    "seed": "zero-flux-36",
     "difficulty": "Hard"
   },
   "2026-07-01": {
@@ -2933,7 +2933,7 @@
       8,
       9
     ],
-    "seed": "omega-pulse-72",
+    "seed": "solar-flux-60",
     "difficulty": "Normal"
   },
   "2026-07-02": {
@@ -2948,7 +2948,7 @@
       8,
       9
     ],
-    "seed": "prime-node-94",
+    "seed": "omega-pulse-95",
     "difficulty": "Normal"
   },
   "2026-07-03": {
@@ -2966,7 +2966,7 @@
       11,
       12
     ],
-    "seed": "prime-moon-21",
+    "seed": "omega-star-44",
     "difficulty": "Hard"
   },
   "2026-07-04": {
@@ -2981,7 +2981,7 @@
       8,
       9
     ],
-    "seed": "omega-omega-51",
+    "seed": "alpha-moon-93",
     "difficulty": "Normal"
   },
   "2026-07-05": {
@@ -2997,7 +2997,7 @@
       9,
       10
     ],
-    "seed": "gamma-star-25",
+    "seed": "omega-flux-28",
     "difficulty": "Hard"
   },
   "2026-07-06": {
@@ -3015,7 +3015,7 @@
       11,
       12
     ],
-    "seed": "beta-prime-25",
+    "seed": "lunar-wave-64",
     "difficulty": "Hard"
   },
   "2026-07-07": {
@@ -3030,7 +3030,7 @@
       8,
       9
     ],
-    "seed": "alpha-star-29",
+    "seed": "beta-prime-25",
     "difficulty": "Normal"
   },
   "2026-07-08": {
@@ -3045,7 +3045,7 @@
       8,
       9
     ],
-    "seed": "alpha-flux-87",
+    "seed": "nova-wave-93",
     "difficulty": "Normal"
   },
   "2026-07-09": {
@@ -3063,7 +3063,7 @@
       11,
       12
     ],
-    "seed": "nova-star-14",
+    "seed": "solar-wave-51",
     "difficulty": "Hard"
   },
   "2026-07-10": {
@@ -3079,7 +3079,7 @@
       9,
       10
     ],
-    "seed": "beta-prime-27",
+    "seed": "delta-omega-58",
     "difficulty": "Hard"
   },
   "2026-07-11": {
@@ -3094,7 +3094,7 @@
       8,
       9
     ],
-    "seed": "gamma-moon-42",
+    "seed": "lunar-omega-51",
     "difficulty": "Normal"
   },
   "2026-07-12": {
@@ -3112,7 +3112,7 @@
       11,
       12
     ],
-    "seed": "zero-omega-22",
+    "seed": "lunar-core-99",
     "difficulty": "Hard"
   },
   "2026-07-13": {
@@ -3127,7 +3127,7 @@
       8,
       9
     ],
-    "seed": "omega-star-86",
+    "seed": "lunar-sun-96",
     "difficulty": "Normal"
   },
   "2026-07-14": {
@@ -3142,7 +3142,7 @@
       8,
       9
     ],
-    "seed": "solar-star-87",
+    "seed": "beta-pulse-26",
     "difficulty": "Normal"
   },
   "2026-07-15": {
@@ -3160,7 +3160,7 @@
       11,
       12
     ],
-    "seed": "delta-moon-67",
+    "seed": "nova-wave-55",
     "difficulty": "Hard"
   },
   "2026-07-16": {
@@ -3175,7 +3175,7 @@
       8,
       9
     ],
-    "seed": "lunar-wave-80",
+    "seed": "solar-moon-65",
     "difficulty": "Normal"
   },
   "2026-07-17": {
@@ -3190,7 +3190,7 @@
       8,
       9
     ],
-    "seed": "delta-sun-85",
+    "seed": "nova-sun-99",
     "difficulty": "Normal"
   },
   "2026-07-18": {
@@ -3208,7 +3208,7 @@
       11,
       12
     ],
-    "seed": "solar-pulse-66",
+    "seed": "solar-moon-78",
     "difficulty": "Hard"
   },
   "2026-07-19": {
@@ -3223,7 +3223,7 @@
       8,
       9
     ],
-    "seed": "alpha-moon-48",
+    "seed": "alpha-moon-92",
     "difficulty": "Normal"
   },
   "2026-07-20": {
@@ -3239,7 +3239,7 @@
       9,
       10
     ],
-    "seed": "nova-flux-68",
+    "seed": "alpha-sun-75",
     "difficulty": "Hard"
   },
   "2026-07-21": {
@@ -3257,7 +3257,7 @@
       11,
       12
     ],
-    "seed": "omega-moon-98",
+    "seed": "beta-node-13",
     "difficulty": "Hard"
   },
   "2026-07-22": {
@@ -3272,7 +3272,7 @@
       8,
       9
     ],
-    "seed": "beta-node-24",
+    "seed": "solar-sun-76",
     "difficulty": "Normal"
   },
   "2026-07-23": {
@@ -3287,7 +3287,7 @@
       8,
       9
     ],
-    "seed": "nova-moon-36",
+    "seed": "solar-node-69",
     "difficulty": "Normal"
   },
   "2026-07-24": {
@@ -3305,7 +3305,7 @@
       11,
       12
     ],
-    "seed": "nova-omega-59",
+    "seed": "solar-flux-81",
     "difficulty": "Hard"
   },
   "2026-07-25": {
@@ -3321,7 +3321,7 @@
       9,
       10
     ],
-    "seed": "delta-sun-37",
+    "seed": "lunar-moon-16",
     "difficulty": "Hard"
   },
   "2026-07-26": {
@@ -3336,7 +3336,7 @@
       8,
       9
     ],
-    "seed": "nova-pulse-45",
+    "seed": "solar-sun-13",
     "difficulty": "Normal"
   },
   "2026-07-27": {
@@ -3354,7 +3354,7 @@
       11,
       12
     ],
-    "seed": "alpha-core-37",
+    "seed": "lunar-sun-88",
     "difficulty": "Hard"
   },
   "2026-07-28": {
@@ -3369,7 +3369,7 @@
       8,
       9
     ],
-    "seed": "prime-node-26",
+    "seed": "prime-moon-75",
     "difficulty": "Normal"
   },
   "2026-07-29": {
@@ -3384,7 +3384,7 @@
       8,
       9
     ],
-    "seed": "lunar-wave-32",
+    "seed": "delta-pulse-20",
     "difficulty": "Normal"
   },
   "2026-07-30": {
@@ -3402,7 +3402,7 @@
       11,
       12
     ],
-    "seed": "delta-moon-42",
+    "seed": "beta-wave-68",
     "difficulty": "Hard"
   },
   "2026-07-31": {
@@ -3417,7 +3417,7 @@
       8,
       9
     ],
-    "seed": "beta-node-26",
+    "seed": "alpha-node-80",
     "difficulty": "Normal"
   },
   "2026-08-01": {
@@ -3432,7 +3432,7 @@
       8,
       9
     ],
-    "seed": "prime-core-79",
+    "seed": "omega-core-75",
     "difficulty": "Normal"
   },
   "2026-08-02": {
@@ -3450,7 +3450,7 @@
       11,
       12
     ],
-    "seed": "nova-core-73",
+    "seed": "lunar-prime-12",
     "difficulty": "Hard"
   },
   "2026-08-03": {
@@ -3465,7 +3465,7 @@
       8,
       9
     ],
-    "seed": "delta-core-40",
+    "seed": "nova-wave-60",
     "difficulty": "Normal"
   },
   "2026-08-04": {
@@ -3481,7 +3481,7 @@
       9,
       10
     ],
-    "seed": "lunar-prime-61",
+    "seed": "solar-node-96",
     "difficulty": "Hard"
   },
   "2026-08-05": {
@@ -3499,7 +3499,7 @@
       11,
       12
     ],
-    "seed": "omega-omega-45",
+    "seed": "lunar-omega-25",
     "difficulty": "Hard"
   },
   "2026-08-06": {
@@ -3514,7 +3514,7 @@
       8,
       9
     ],
-    "seed": "delta-node-14",
+    "seed": "beta-flux-13",
     "difficulty": "Normal"
   },
   "2026-08-07": {
@@ -3529,7 +3529,7 @@
       8,
       9
     ],
-    "seed": "lunar-prime-83",
+    "seed": "beta-pulse-31",
     "difficulty": "Normal"
   },
   "2026-08-08": {
@@ -3547,7 +3547,7 @@
       11,
       12
     ],
-    "seed": "nova-wave-40",
+    "seed": "prime-prime-69",
     "difficulty": "Hard"
   },
   "2026-08-09": {
@@ -3563,7 +3563,7 @@
       9,
       10
     ],
-    "seed": "beta-star-24",
+    "seed": "delta-wave-30",
     "difficulty": "Hard"
   },
   "2026-08-10": {
@@ -3578,7 +3578,7 @@
       8,
       9
     ],
-    "seed": "solar-prime-23",
+    "seed": "gamma-omega-56",
     "difficulty": "Normal"
   },
   "2026-08-11": {
@@ -3596,7 +3596,7 @@
       11,
       12
     ],
-    "seed": "omega-node-20",
+    "seed": "nova-sun-10",
     "difficulty": "Hard"
   },
   "2026-08-12": {
@@ -3611,7 +3611,7 @@
       8,
       9
     ],
-    "seed": "prime-pulse-87",
+    "seed": "delta-pulse-54",
     "difficulty": "Normal"
   },
   "2026-08-13": {
@@ -3626,7 +3626,7 @@
       8,
       9
     ],
-    "seed": "solar-moon-31",
+    "seed": "prime-flux-75",
     "difficulty": "Normal"
   },
   "2026-08-14": {
@@ -3644,7 +3644,7 @@
       11,
       12
     ],
-    "seed": "gamma-node-95",
+    "seed": "delta-flux-80",
     "difficulty": "Hard"
   },
   "2026-08-15": {
@@ -3659,7 +3659,7 @@
       8,
       9
     ],
-    "seed": "prime-wave-74",
+    "seed": "delta-wave-47",
     "difficulty": "Normal"
   },
   "2026-08-16": {
@@ -3674,7 +3674,7 @@
       8,
       9
     ],
-    "seed": "delta-star-81",
+    "seed": "solar-flux-56",
     "difficulty": "Normal"
   },
   "2026-08-17": {
@@ -3692,7 +3692,7 @@
       11,
       12
     ],
-    "seed": "delta-flux-79",
+    "seed": "zero-moon-47",
     "difficulty": "Hard"
   },
   "2026-08-18": {
@@ -3707,7 +3707,7 @@
       8,
       9
     ],
-    "seed": "omega-omega-24",
+    "seed": "delta-flux-51",
     "difficulty": "Normal"
   },
   "2026-08-19": {
@@ -3723,7 +3723,7 @@
       9,
       10
     ],
-    "seed": "omega-omega-36",
+    "seed": "alpha-moon-26",
     "difficulty": "Hard"
   },
   "2026-08-20": {
@@ -3741,7 +3741,7 @@
       11,
       12
     ],
-    "seed": "delta-pulse-57",
+    "seed": "gamma-star-82",
     "difficulty": "Hard"
   },
   "2026-08-21": {
@@ -3756,7 +3756,7 @@
       8,
       9
     ],
-    "seed": "omega-wave-56",
+    "seed": "solar-star-97",
     "difficulty": "Normal"
   },
   "2026-08-22": {
@@ -3771,7 +3771,7 @@
       8,
       9
     ],
-    "seed": "alpha-sun-73",
+    "seed": "beta-core-95",
     "difficulty": "Normal"
   },
   "2026-08-23": {
@@ -3789,7 +3789,7 @@
       11,
       12
     ],
-    "seed": "gamma-star-34",
+    "seed": "alpha-pulse-11",
     "difficulty": "Hard"
   },
   "2026-08-24": {
@@ -3805,7 +3805,7 @@
       9,
       10
     ],
-    "seed": "omega-node-49",
+    "seed": "gamma-node-35",
     "difficulty": "Hard"
   },
   "2026-08-25": {
@@ -3820,7 +3820,7 @@
       8,
       9
     ],
-    "seed": "lunar-star-89",
+    "seed": "gamma-omega-49",
     "difficulty": "Normal"
   },
   "2026-08-26": {
@@ -3838,7 +3838,7 @@
       11,
       12
     ],
-    "seed": "zero-sun-33",
+    "seed": "nova-moon-97",
     "difficulty": "Hard"
   },
   "2026-08-27": {
@@ -3853,7 +3853,7 @@
       8,
       9
     ],
-    "seed": "alpha-flux-48",
+    "seed": "solar-flux-81",
     "difficulty": "Normal"
   },
   "2026-08-28": {
@@ -3868,7 +3868,7 @@
       8,
       9
     ],
-    "seed": "zero-node-54",
+    "seed": "prime-wave-86",
     "difficulty": "Normal"
   },
   "2026-08-29": {
@@ -3886,7 +3886,7 @@
       11,
       12
     ],
-    "seed": "lunar-sun-74",
+    "seed": "gamma-moon-79",
     "difficulty": "Hard"
   },
   "2026-08-30": {
@@ -3901,7 +3901,7 @@
       8,
       9
     ],
-    "seed": "alpha-omega-70",
+    "seed": "prime-pulse-86",
     "difficulty": "Normal"
   },
   "2026-08-31": {
@@ -3916,7 +3916,7 @@
       8,
       9
     ],
-    "seed": "nova-flux-52",
+    "seed": "zero-wave-44",
     "difficulty": "Normal"
   },
   "2026-09-01": {
@@ -3934,7 +3934,7 @@
       11,
       12
     ],
-    "seed": "nova-node-54",
+    "seed": "zero-pulse-63",
     "difficulty": "Hard"
   },
   "2026-09-02": {
@@ -3949,7 +3949,7 @@
       8,
       9
     ],
-    "seed": "gamma-moon-52",
+    "seed": "solar-moon-44",
     "difficulty": "Normal"
   },
   "2026-09-03": {
@@ -3965,7 +3965,7 @@
       9,
       10
     ],
-    "seed": "lunar-star-93",
+    "seed": "alpha-node-41",
     "difficulty": "Hard"
   },
   "2026-09-04": {
@@ -3983,7 +3983,7 @@
       11,
       12
     ],
-    "seed": "alpha-omega-42",
+    "seed": "delta-pulse-94",
     "difficulty": "Hard"
   },
   "2026-09-05": {
@@ -3998,7 +3998,7 @@
       8,
       9
     ],
-    "seed": "beta-moon-53",
+    "seed": "solar-star-85",
     "difficulty": "Normal"
   },
   "2026-09-06": {
@@ -4013,7 +4013,7 @@
       8,
       9
     ],
-    "seed": "nova-node-21",
+    "seed": "alpha-flux-25",
     "difficulty": "Normal"
   },
   "2026-09-07": {
@@ -4031,7 +4031,7 @@
       11,
       12
     ],
-    "seed": "solar-node-38",
+    "seed": "alpha-star-23",
     "difficulty": "Hard"
   },
   "2026-09-08": {
@@ -4047,7 +4047,7 @@
       9,
       10
     ],
-    "seed": "nova-wave-44",
+    "seed": "solar-node-33",
     "difficulty": "Hard"
   },
   "2026-09-09": {
@@ -4062,7 +4062,7 @@
       8,
       9
     ],
-    "seed": "lunar-prime-62",
+    "seed": "alpha-star-60",
     "difficulty": "Normal"
   },
   "2026-09-10": {
@@ -4080,7 +4080,7 @@
       11,
       12
     ],
-    "seed": "gamma-wave-26",
+    "seed": "alpha-wave-98",
     "difficulty": "Hard"
   },
   "2026-09-11": {
@@ -4095,7 +4095,7 @@
       8,
       9
     ],
-    "seed": "beta-pulse-36",
+    "seed": "delta-omega-27",
     "difficulty": "Normal"
   },
   "2026-09-12": {
@@ -4110,7 +4110,7 @@
       8,
       9
     ],
-    "seed": "solar-pulse-81",
+    "seed": "zero-prime-79",
     "difficulty": "Normal"
   },
   "2026-09-13": {
@@ -4128,7 +4128,7 @@
       11,
       12
     ],
-    "seed": "prime-wave-14",
+    "seed": "solar-flux-52",
     "difficulty": "Hard"
   },
   "2026-09-14": {
@@ -4143,7 +4143,7 @@
       8,
       9
     ],
-    "seed": "beta-pulse-17",
+    "seed": "prime-moon-84",
     "difficulty": "Normal"
   },
   "2026-09-15": {
@@ -4158,7 +4158,7 @@
       8,
       9
     ],
-    "seed": "beta-prime-17",
+    "seed": "prime-omega-27",
     "difficulty": "Normal"
   },
   "2026-09-16": {
@@ -4176,7 +4176,7 @@
       11,
       12
     ],
-    "seed": "nova-star-35",
+    "seed": "delta-moon-36",
     "difficulty": "Hard"
   },
   "2026-09-17": {
@@ -4191,7 +4191,7 @@
       8,
       9
     ],
-    "seed": "zero-star-55",
+    "seed": "lunar-core-73",
     "difficulty": "Normal"
   },
   "2026-09-18": {
@@ -4207,7 +4207,7 @@
       9,
       10
     ],
-    "seed": "delta-node-22",
+    "seed": "beta-moon-81",
     "difficulty": "Hard"
   },
   "2026-09-19": {
@@ -4225,7 +4225,7 @@
       11,
       12
     ],
-    "seed": "lunar-omega-86",
+    "seed": "solar-wave-43",
     "difficulty": "Hard"
   },
   "2026-09-20": {
@@ -4240,7 +4240,7 @@
       8,
       9
     ],
-    "seed": "prime-node-87",
+    "seed": "nova-moon-86",
     "difficulty": "Normal"
   },
   "2026-09-21": {
@@ -4255,7 +4255,7 @@
       8,
       9
     ],
-    "seed": "prime-star-30",
+    "seed": "delta-wave-43",
     "difficulty": "Normal"
   },
   "2026-09-22": {
@@ -4273,7 +4273,7 @@
       11,
       12
     ],
-    "seed": "beta-moon-13",
+    "seed": "zero-omega-26",
     "difficulty": "Hard"
   },
   "2026-09-23": {
@@ -4289,7 +4289,7 @@
       9,
       10
     ],
-    "seed": "delta-core-53",
+    "seed": "omega-wave-21",
     "difficulty": "Hard"
   },
   "2026-09-24": {
@@ -4304,7 +4304,7 @@
       8,
       9
     ],
-    "seed": "alpha-moon-34",
+    "seed": "beta-star-40",
     "difficulty": "Normal"
   },
   "2026-09-25": {
@@ -4322,7 +4322,7 @@
       11,
       12
     ],
-    "seed": "alpha-flux-90",
+    "seed": "alpha-wave-97",
     "difficulty": "Hard"
   },
   "2026-09-26": {
@@ -4337,7 +4337,7 @@
       8,
       9
     ],
-    "seed": "delta-node-56",
+    "seed": "prime-core-36",
     "difficulty": "Normal"
   },
   "2026-09-27": {
@@ -4352,7 +4352,7 @@
       8,
       9
     ],
-    "seed": "gamma-core-54",
+    "seed": "omega-flux-24",
     "difficulty": "Normal"
   },
   "2026-09-28": {
@@ -4370,7 +4370,7 @@
       11,
       12
     ],
-    "seed": "gamma-pulse-67",
+    "seed": "zero-sun-77",
     "difficulty": "Hard"
   },
   "2026-09-29": {
@@ -4385,7 +4385,7 @@
       8,
       9
     ],
-    "seed": "nova-moon-15",
+    "seed": "alpha-flux-56",
     "difficulty": "Normal"
   },
   "2026-09-30": {
@@ -4400,7 +4400,7 @@
       8,
       9
     ],
-    "seed": "zero-flux-59",
+    "seed": "zero-moon-66",
     "difficulty": "Normal"
   },
   "2026-10-01": {
@@ -4418,7 +4418,7 @@
       11,
       12
     ],
-    "seed": "lunar-omega-71",
+    "seed": "omega-wave-62",
     "difficulty": "Hard"
   },
   "2026-10-02": {
@@ -4433,7 +4433,7 @@
       8,
       9
     ],
-    "seed": "lunar-node-94",
+    "seed": "lunar-wave-63",
     "difficulty": "Normal"
   },
   "2026-10-03": {
@@ -4449,7 +4449,7 @@
       9,
       10
     ],
-    "seed": "zero-prime-83",
+    "seed": "alpha-omega-37",
     "difficulty": "Hard"
   },
   "2026-10-04": {
@@ -4467,7 +4467,7 @@
       11,
       12
     ],
-    "seed": "beta-omega-79",
+    "seed": "beta-core-92",
     "difficulty": "Hard"
   },
   "2026-10-05": {
@@ -4482,7 +4482,7 @@
       8,
       9
     ],
-    "seed": "alpha-sun-80",
+    "seed": "prime-node-39",
     "difficulty": "Normal"
   },
   "2026-10-06": {
@@ -4497,7 +4497,7 @@
       8,
       9
     ],
-    "seed": "solar-pulse-80",
+    "seed": "gamma-moon-51",
     "difficulty": "Normal"
   },
   "2026-10-07": {
@@ -4515,7 +4515,7 @@
       11,
       12
     ],
-    "seed": "gamma-node-59",
+    "seed": "prime-node-18",
     "difficulty": "Hard"
   },
   "2026-10-08": {
@@ -4531,7 +4531,7 @@
       9,
       10
     ],
-    "seed": "lunar-node-92",
+    "seed": "delta-pulse-86",
     "difficulty": "Hard"
   },
   "2026-10-09": {
@@ -4546,7 +4546,7 @@
       8,
       9
     ],
-    "seed": "gamma-flux-14",
+    "seed": "prime-node-41",
     "difficulty": "Normal"
   },
   "2026-10-10": {
@@ -4564,7 +4564,7 @@
       11,
       12
     ],
-    "seed": "prime-core-65",
+    "seed": "solar-prime-20",
     "difficulty": "Hard"
   },
   "2026-10-11": {
@@ -4579,7 +4579,7 @@
       8,
       9
     ],
-    "seed": "nova-wave-14",
+    "seed": "solar-star-13",
     "difficulty": "Normal"
   },
   "2026-10-12": {
@@ -4594,7 +4594,7 @@
       8,
       9
     ],
-    "seed": "lunar-prime-91",
+    "seed": "alpha-pulse-75",
     "difficulty": "Normal"
   },
   "2026-10-13": {
@@ -4612,7 +4612,7 @@
       11,
       12
     ],
-    "seed": "prime-wave-26",
+    "seed": "solar-node-26",
     "difficulty": "Hard"
   },
   "2026-10-14": {
@@ -4627,7 +4627,7 @@
       8,
       9
     ],
-    "seed": "gamma-prime-40",
+    "seed": "nova-prime-10",
     "difficulty": "Normal"
   },
   "2026-10-15": {
@@ -4642,7 +4642,7 @@
       8,
       9
     ],
-    "seed": "solar-node-76",
+    "seed": "beta-node-28",
     "difficulty": "Normal"
   },
   "2026-10-16": {
@@ -4660,7 +4660,7 @@
       11,
       12
     ],
-    "seed": "prime-node-12",
+    "seed": "alpha-sun-56",
     "difficulty": "Hard"
   },
   "2026-10-17": {
@@ -4675,7 +4675,7 @@
       8,
       9
     ],
-    "seed": "nova-pulse-36",
+    "seed": "zero-core-76",
     "difficulty": "Normal"
   },
   "2026-10-18": {
@@ -4691,7 +4691,7 @@
       9,
       10
     ],
-    "seed": "prime-omega-54",
+    "seed": "lunar-star-65",
     "difficulty": "Hard"
   },
   "2026-10-19": {
@@ -4709,7 +4709,7 @@
       11,
       12
     ],
-    "seed": "gamma-prime-51",
+    "seed": "prime-node-20",
     "difficulty": "Hard"
   },
   "2026-10-20": {
@@ -4724,7 +4724,7 @@
       8,
       9
     ],
-    "seed": "prime-prime-45",
+    "seed": "nova-node-32",
     "difficulty": "Normal"
   },
   "2026-10-21": {
@@ -4739,7 +4739,7 @@
       8,
       9
     ],
-    "seed": "delta-omega-45",
+    "seed": "beta-node-62",
     "difficulty": "Normal"
   },
   "2026-10-22": {
@@ -4757,7 +4757,7 @@
       11,
       12
     ],
-    "seed": "nova-sun-47",
+    "seed": "gamma-core-23",
     "difficulty": "Hard"
   },
   "2026-10-23": {
@@ -4773,7 +4773,7 @@
       9,
       10
     ],
-    "seed": "beta-omega-56",
+    "seed": "omega-sun-47",
     "difficulty": "Hard"
   },
   "2026-10-24": {
@@ -4788,7 +4788,7 @@
       8,
       9
     ],
-    "seed": "beta-node-99",
+    "seed": "gamma-wave-61",
     "difficulty": "Normal"
   },
   "2026-10-25": {
@@ -4806,7 +4806,7 @@
       11,
       12
     ],
-    "seed": "gamma-node-67",
+    "seed": "nova-pulse-52",
     "difficulty": "Hard"
   },
   "2026-10-26": {
@@ -4821,7 +4821,7 @@
       8,
       9
     ],
-    "seed": "nova-star-28",
+    "seed": "omega-moon-15",
     "difficulty": "Normal"
   },
   "2026-10-27": {
@@ -4836,7 +4836,7 @@
       8,
       9
     ],
-    "seed": "alpha-star-29",
+    "seed": "alpha-pulse-84",
     "difficulty": "Normal"
   },
   "2026-10-28": {
@@ -4854,7 +4854,7 @@
       11,
       12
     ],
-    "seed": "omega-sun-91",
+    "seed": "nova-sun-10",
     "difficulty": "Hard"
   },
   "2026-10-29": {
@@ -4869,7 +4869,7 @@
       8,
       9
     ],
-    "seed": "delta-pulse-20",
+    "seed": "beta-moon-50",
     "difficulty": "Normal"
   },
   "2026-10-30": {
@@ -4884,7 +4884,7 @@
       8,
       9
     ],
-    "seed": "omega-wave-78",
+    "seed": "nova-node-88",
     "difficulty": "Normal"
   },
   "2026-10-31": {
@@ -4902,7 +4902,7 @@
       11,
       12
     ],
-    "seed": "delta-wave-99",
+    "seed": "zero-sun-14",
     "difficulty": "Hard"
   },
   "2026-11-01": {
@@ -4917,7 +4917,7 @@
       8,
       9
     ],
-    "seed": "alpha-sun-40",
+    "seed": "zero-moon-27",
     "difficulty": "Normal"
   },
   "2026-11-02": {
@@ -4933,7 +4933,7 @@
       9,
       10
     ],
-    "seed": "beta-flux-62",
+    "seed": "zero-flux-98",
     "difficulty": "Hard"
   },
   "2026-11-03": {
@@ -4951,7 +4951,7 @@
       11,
       12
     ],
-    "seed": "zero-sun-18",
+    "seed": "nova-prime-60",
     "difficulty": "Hard"
   },
   "2026-11-04": {
@@ -4966,7 +4966,7 @@
       8,
       9
     ],
-    "seed": "lunar-node-99",
+    "seed": "alpha-sun-87",
     "difficulty": "Normal"
   },
   "2026-11-05": {
@@ -4981,7 +4981,7 @@
       8,
       9
     ],
-    "seed": "alpha-flux-71",
+    "seed": "gamma-star-93",
     "difficulty": "Normal"
   },
   "2026-11-06": {
@@ -4999,7 +4999,7 @@
       11,
       12
     ],
-    "seed": "alpha-node-51",
+    "seed": "beta-prime-69",
     "difficulty": "Hard"
   },
   "2026-11-07": {
@@ -5015,7 +5015,7 @@
       9,
       10
     ],
-    "seed": "solar-star-74",
+    "seed": "alpha-prime-92",
     "difficulty": "Hard"
   },
   "2026-11-08": {
@@ -5030,7 +5030,7 @@
       8,
       9
     ],
-    "seed": "prime-prime-51",
+    "seed": "beta-star-25",
     "difficulty": "Normal"
   },
   "2026-11-09": {
@@ -5048,7 +5048,7 @@
       11,
       12
     ],
-    "seed": "lunar-omega-76",
+    "seed": "beta-sun-52",
     "difficulty": "Hard"
   },
   "2026-11-10": {
@@ -5063,7 +5063,7 @@
       8,
       9
     ],
-    "seed": "prime-pulse-17",
+    "seed": "lunar-wave-38",
     "difficulty": "Normal"
   },
   "2026-11-11": {
@@ -5078,7 +5078,7 @@
       8,
       9
     ],
-    "seed": "delta-node-17",
+    "seed": "delta-omega-47",
     "difficulty": "Normal"
   },
   "2026-11-12": {
@@ -5096,7 +5096,7 @@
       11,
       12
     ],
-    "seed": "solar-wave-57",
+    "seed": "nova-star-26",
     "difficulty": "Hard"
   },
   "2026-11-13": {
@@ -5111,7 +5111,7 @@
       8,
       9
     ],
-    "seed": "zero-node-87",
+    "seed": "prime-node-44",
     "difficulty": "Normal"
   },
   "2026-11-14": {
@@ -5126,7 +5126,7 @@
       8,
       9
     ],
-    "seed": "gamma-pulse-36",
+    "seed": "lunar-flux-85",
     "difficulty": "Normal"
   },
   "2026-11-15": {
@@ -5144,7 +5144,7 @@
       11,
       12
     ],
-    "seed": "omega-pulse-77",
+    "seed": "delta-wave-94",
     "difficulty": "Hard"
   },
   "2026-11-16": {
@@ -5159,7 +5159,7 @@
       8,
       9
     ],
-    "seed": "lunar-star-58",
+    "seed": "gamma-core-26",
     "difficulty": "Normal"
   },
   "2026-11-17": {
@@ -5175,7 +5175,7 @@
       9,
       10
     ],
-    "seed": "omega-star-47",
+    "seed": "beta-omega-49",
     "difficulty": "Hard"
   },
   "2026-11-18": {
@@ -5193,7 +5193,7 @@
       11,
       12
     ],
-    "seed": "prime-node-88",
+    "seed": "alpha-sun-70",
     "difficulty": "Hard"
   },
   "2026-11-19": {
@@ -5208,7 +5208,7 @@
       8,
       9
     ],
-    "seed": "alpha-star-17",
+    "seed": "zero-moon-10",
     "difficulty": "Normal"
   },
   "2026-11-20": {
@@ -5223,7 +5223,7 @@
       8,
       9
     ],
-    "seed": "solar-prime-52",
+    "seed": "alpha-star-69",
     "difficulty": "Normal"
   },
   "2026-11-21": {
@@ -5241,7 +5241,7 @@
       11,
       12
     ],
-    "seed": "lunar-sun-25",
+    "seed": "delta-flux-95",
     "difficulty": "Hard"
   },
   "2026-11-22": {
@@ -5257,7 +5257,7 @@
       9,
       10
     ],
-    "seed": "omega-prime-74",
+    "seed": "lunar-pulse-36",
     "difficulty": "Hard"
   },
   "2026-11-23": {
@@ -5272,7 +5272,7 @@
       8,
       9
     ],
-    "seed": "beta-node-85",
+    "seed": "gamma-moon-97",
     "difficulty": "Normal"
   },
   "2026-11-24": {
@@ -5290,7 +5290,7 @@
       11,
       12
     ],
-    "seed": "zero-moon-63",
+    "seed": "prime-flux-98",
     "difficulty": "Hard"
   },
   "2026-11-25": {
@@ -5305,7 +5305,7 @@
       8,
       9
     ],
-    "seed": "solar-sun-28",
+    "seed": "lunar-prime-93",
     "difficulty": "Normal"
   },
   "2026-11-26": {
@@ -5320,7 +5320,7 @@
       8,
       9
     ],
-    "seed": "alpha-wave-49",
+    "seed": "nova-star-87",
     "difficulty": "Normal"
   },
   "2026-11-27": {
@@ -5338,7 +5338,7 @@
       11,
       12
     ],
-    "seed": "prime-omega-80",
+    "seed": "lunar-pulse-78",
     "difficulty": "Hard"
   },
   "2026-11-28": {
@@ -5353,7 +5353,7 @@
       8,
       9
     ],
-    "seed": "delta-moon-12",
+    "seed": "delta-moon-27",
     "difficulty": "Normal"
   },
   "2026-11-29": {
@@ -5368,7 +5368,7 @@
       8,
       9
     ],
-    "seed": "prime-flux-69",
+    "seed": "zero-node-21",
     "difficulty": "Normal"
   },
   "2026-11-30": {
@@ -5386,7 +5386,7 @@
       11,
       12
     ],
-    "seed": "beta-pulse-75",
+    "seed": "delta-moon-46",
     "difficulty": "Hard"
   },
   "2026-12-01": {
@@ -5401,7 +5401,7 @@
       8,
       9
     ],
-    "seed": "prime-star-65",
+    "seed": "delta-omega-15",
     "difficulty": "Normal"
   },
   "2026-12-02": {
@@ -5417,7 +5417,7 @@
       9,
       10
     ],
-    "seed": "zero-omega-50",
+    "seed": "beta-star-34",
     "difficulty": "Hard"
   },
   "2026-12-03": {
@@ -5435,7 +5435,7 @@
       11,
       12
     ],
-    "seed": "nova-omega-36",
+    "seed": "zero-sun-13",
     "difficulty": "Hard"
   },
   "2026-12-04": {
@@ -5450,7 +5450,7 @@
       8,
       9
     ],
-    "seed": "lunar-moon-56",
+    "seed": "omega-prime-55",
     "difficulty": "Normal"
   },
   "2026-12-05": {
@@ -5465,7 +5465,7 @@
       8,
       9
     ],
-    "seed": "omega-omega-70",
+    "seed": "zero-sun-97",
     "difficulty": "Normal"
   },
   "2026-12-06": {
@@ -5483,7 +5483,7 @@
       11,
       12
     ],
-    "seed": "zero-sun-32",
+    "seed": "lunar-star-37",
     "difficulty": "Hard"
   },
   "2026-12-07": {
@@ -5499,7 +5499,7 @@
       9,
       10
     ],
-    "seed": "omega-omega-84",
+    "seed": "solar-pulse-39",
     "difficulty": "Hard"
   },
   "2026-12-08": {
@@ -5514,7 +5514,7 @@
       8,
       9
     ],
-    "seed": "prime-flux-70",
+    "seed": "gamma-wave-90",
     "difficulty": "Normal"
   },
   "2026-12-09": {
@@ -5532,7 +5532,7 @@
       11,
       12
     ],
-    "seed": "delta-wave-21",
+    "seed": "alpha-prime-95",
     "difficulty": "Hard"
   },
   "2026-12-10": {
@@ -5547,7 +5547,7 @@
       8,
       9
     ],
-    "seed": "alpha-pulse-28",
+    "seed": "zero-node-25",
     "difficulty": "Normal"
   },
   "2026-12-11": {
@@ -5562,7 +5562,7 @@
       8,
       9
     ],
-    "seed": "zero-wave-31",
+    "seed": "alpha-core-81",
     "difficulty": "Normal"
   },
   "2026-12-12": {
@@ -5580,7 +5580,7 @@
       11,
       12
     ],
-    "seed": "alpha-pulse-91",
+    "seed": "omega-node-21",
     "difficulty": "Hard"
   },
   "2026-12-13": {
@@ -5595,7 +5595,7 @@
       8,
       9
     ],
-    "seed": "alpha-pulse-69",
+    "seed": "nova-omega-60",
     "difficulty": "Normal"
   },
   "2026-12-14": {
@@ -5610,7 +5610,7 @@
       8,
       9
     ],
-    "seed": "omega-pulse-97",
+    "seed": "beta-prime-54",
     "difficulty": "Normal"
   },
   "2026-12-15": {
@@ -5628,7 +5628,7 @@
       11,
       12
     ],
-    "seed": "solar-node-13",
+    "seed": "solar-star-98",
     "difficulty": "Hard"
   },
   "2026-12-16": {
@@ -5643,7 +5643,7 @@
       8,
       9
     ],
-    "seed": "lunar-flux-79",
+    "seed": "delta-node-43",
     "difficulty": "Normal"
   },
   "2026-12-17": {
@@ -5659,7 +5659,7 @@
       9,
       10
     ],
-    "seed": "solar-core-69",
+    "seed": "nova-moon-77",
     "difficulty": "Hard"
   },
   "2026-12-18": {
@@ -5677,7 +5677,7 @@
       11,
       12
     ],
-    "seed": "prime-omega-53",
+    "seed": "nova-core-54",
     "difficulty": "Hard"
   },
   "2026-12-19": {
@@ -5692,7 +5692,7 @@
       8,
       9
     ],
-    "seed": "alpha-star-79",
+    "seed": "nova-star-21",
     "difficulty": "Normal"
   },
   "2026-12-20": {
@@ -5707,7 +5707,7 @@
       8,
       9
     ],
-    "seed": "prime-star-32",
+    "seed": "beta-sun-70",
     "difficulty": "Normal"
   },
   "2026-12-21": {
@@ -5725,7 +5725,7 @@
       11,
       12
     ],
-    "seed": "zero-omega-10",
+    "seed": "gamma-omega-41",
     "difficulty": "Hard"
   },
   "2026-12-22": {
@@ -5741,7 +5741,7 @@
       9,
       10
     ],
-    "seed": "beta-omega-42",
+    "seed": "alpha-star-74",
     "difficulty": "Hard"
   },
   "2026-12-23": {
@@ -5756,7 +5756,7 @@
       8,
       9
     ],
-    "seed": "delta-node-86",
+    "seed": "gamma-node-28",
     "difficulty": "Normal"
   },
   "2026-12-24": {
@@ -5774,7 +5774,7 @@
       11,
       12
     ],
-    "seed": "alpha-flux-75",
+    "seed": "nova-core-13",
     "difficulty": "Hard"
   },
   "2026-12-25": {
@@ -5789,7 +5789,7 @@
       8,
       9
     ],
-    "seed": "gamma-prime-83",
+    "seed": "delta-pulse-10",
     "difficulty": "Normal"
   },
   "2026-12-26": {
@@ -5804,7 +5804,7 @@
       8,
       9
     ],
-    "seed": "prime-prime-77",
+    "seed": "beta-omega-74",
     "difficulty": "Normal"
   },
   "2026-12-27": {
@@ -5822,7 +5822,7 @@
       11,
       12
     ],
-    "seed": "nova-wave-44",
+    "seed": "zero-sun-36",
     "difficulty": "Hard"
   },
   "2026-12-28": {
@@ -5837,7 +5837,7 @@
       8,
       9
     ],
-    "seed": "lunar-pulse-96",
+    "seed": "prime-pulse-55",
     "difficulty": "Normal"
   },
   "2026-12-29": {
@@ -5852,7 +5852,7 @@
       8,
       9
     ],
-    "seed": "omega-core-21",
+    "seed": "delta-prime-96",
     "difficulty": "Normal"
   },
   "2026-12-30": {
@@ -5870,7 +5870,7 @@
       11,
       12
     ],
-    "seed": "zero-omega-98",
+    "seed": "prime-node-66",
     "difficulty": "Hard"
   },
   "2026-12-31": {
@@ -5885,7 +5885,7 @@
       8,
       9
     ],
-    "seed": "alpha-prime-86",
+    "seed": "gamma-flux-33",
     "difficulty": "Normal"
   }
 }

@@ -5,7 +5,6 @@
   --fg-dim: #666;
   --border: #333;
   --tile-open: #1a1a1a;
-  --tile-shut: #e0e0e0;
   --tile-selected: #3a3a3a;
   --tile-selected-border: #fff;
 }
@@ -38,7 +37,38 @@ body {
   font-size: 56px;
   font-weight: bold;
   letter-spacing: 8px;
-  margin-bottom: 8px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.help-btn {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: 2px solid var(--fg-dim);
+  color: var(--fg-dim);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.help-btn:hover {
+  border-color: var(--fg);
+  color: var(--fg);
 }
 
 .date {
@@ -140,8 +170,9 @@ body {
 }
 
 .tile.shut {
-  background: var(--tile-shut);
-  color: var(--bg);
+  background: var(--bg-secondary);
+  border-color: var(--border);
+  color: var(--fg-dim);
   cursor: default;
 }
 
@@ -153,17 +184,10 @@ body {
   font-weight: bold;
 }
 
-.tile-x {
-  position: absolute;
-  font-size: 14px;
-  bottom: 4px;
-}
-
 .controls {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 32px;
   width: 100%;
   max-width: 400px;
 }
@@ -270,6 +294,8 @@ body {
   width: 90%;
   text-align: center;
   position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 .modal-buttons {
@@ -364,6 +390,11 @@ body {
   margin-bottom: 16px;
 }
 
+.modal-content h2.help-title {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
 .modal-content h3 {
   font-size: 24px;
   letter-spacing: 2px;
@@ -373,6 +404,24 @@ body {
 .modal-content p {
   color: var(--fg-dim);
   margin-bottom: 24px;
+}
+
+.help-section {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.help-section h3, .help-section h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  color: var(--fg);
+}
+
+.help-section p {
+  margin-bottom: 0;
+  line-height: 1.5;
 }
 
 .final-score {
@@ -439,4 +488,30 @@ body {
     padding: 16px 24px;
     font-size: 16px;
   }
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer a,
+.footer-btn {
+  color: var(--fg-dim);
+  font-size: 14px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+.footer a:hover,
+.footer-btn:hover {
+  color: var(--fg);
 }

@@ -27,7 +27,6 @@ export function TileGrid({ tiles, selectedTiles, onToggle, disabled }: TileGridP
             aria-pressed={isSelected}
           >
             <span className="tile-value">{tile.value}</span>
-            {tile.isShut && <span className="tile-x">X</span>}
           </button>
         );
       })}
