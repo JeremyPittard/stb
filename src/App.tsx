@@ -49,7 +49,7 @@ function App() {
 
     const saved = loadGameState();
 
-    if (saved && saved.activeDate === activeDateKey && saved.tileState && !saved.isComplete) {
+    if (saved && saved.activeDate === activeDateKey && saved.tileState) {
       let dice: [number, number] | null = null;
       if (saved.currentDice) {
         dice = saved.currentDice;
