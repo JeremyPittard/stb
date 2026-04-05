@@ -12,12 +12,25 @@ interface GameOverProps {
 export function GameOver({ result, score, burnUsed, tiles, date }: GameOverProps) {
   const [copied, setCopied] = useState(false);
 
-  const grid = tiles.map(t => t.isShut ? '█' : '·').join('');
+  const cols = Math.ceil(Math.sqrt(tiles.length));
+  const gridRows = Math.ceil(tiles.length / cols);
+  
+  let gridStr = '';
+  for (let row = 0; row < gridRows; row++) {
+    const rowChars: string[] = [];
+    for (let col = 0; col < cols; col++) {
+      const idx = row * cols + col;
+      if (idx < tiles.length) {
+        rowChars.push(tiles[idx].isShut ? '█' : '▫');
+      }
+    }
+    gridStr += rowChars.join(' ') + '\n';
+  }
   
   const shareText = `STB ${date}
 Score: ${score} ${score === 0 ? '(WIN!)' : ''}
 ${burnUsed ? '[Burn Used]' : '[Clean Run]'}
-${grid}`;
+${gridStr}`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(shareText).then(() => {
