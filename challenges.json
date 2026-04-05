@@ -1,0 +1,5891 @@
+{
+  "2026-01-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-moon-18",
+    "difficulty": "Hard"
+  },
+  "2026-01-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-moon-80",
+    "difficulty": "Normal"
+  },
+  "2026-01-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-core-98",
+    "difficulty": "Normal"
+  },
+  "2026-01-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-node-44",
+    "difficulty": "Hard"
+  },
+  "2026-01-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-star-29",
+    "difficulty": "Normal"
+  },
+  "2026-01-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "solar-sun-40",
+    "difficulty": "Hard"
+  },
+  "2026-01-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "beta-moon-63",
+    "difficulty": "Hard"
+  },
+  "2026-01-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-star-18",
+    "difficulty": "Normal"
+  },
+  "2026-01-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-prime-79",
+    "difficulty": "Normal"
+  },
+  "2026-01-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-sun-35",
+    "difficulty": "Hard"
+  },
+  "2026-01-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-sun-25",
+    "difficulty": "Hard"
+  },
+  "2026-01-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-flux-54",
+    "difficulty": "Normal"
+  },
+  "2026-01-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-star-21",
+    "difficulty": "Hard"
+  },
+  "2026-01-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-sun-78",
+    "difficulty": "Normal"
+  },
+  "2026-01-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-pulse-72",
+    "difficulty": "Normal"
+  },
+  "2026-01-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-omega-49",
+    "difficulty": "Hard"
+  },
+  "2026-01-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-node-19",
+    "difficulty": "Normal"
+  },
+  "2026-01-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-omega-84",
+    "difficulty": "Normal"
+  },
+  "2026-01-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-flux-55",
+    "difficulty": "Hard"
+  },
+  "2026-01-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-prime-78",
+    "difficulty": "Normal"
+  },
+  "2026-01-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-moon-17",
+    "difficulty": "Hard"
+  },
+  "2026-01-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-star-96",
+    "difficulty": "Hard"
+  },
+  "2026-01-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-moon-37",
+    "difficulty": "Normal"
+  },
+  "2026-01-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-pulse-99",
+    "difficulty": "Normal"
+  },
+  "2026-01-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-prime-47",
+    "difficulty": "Hard"
+  },
+  "2026-01-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "delta-flux-84",
+    "difficulty": "Hard"
+  },
+  "2026-01-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-node-79",
+    "difficulty": "Normal"
+  },
+  "2026-01-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-flux-59",
+    "difficulty": "Hard"
+  },
+  "2026-01-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-flux-60",
+    "difficulty": "Normal"
+  },
+  "2026-01-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-sun-15",
+    "difficulty": "Normal"
+  },
+  "2026-01-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-omega-41",
+    "difficulty": "Hard"
+  },
+  "2026-02-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-moon-57",
+    "difficulty": "Normal"
+  },
+  "2026-02-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-omega-17",
+    "difficulty": "Normal"
+  },
+  "2026-02-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-pulse-47",
+    "difficulty": "Hard"
+  },
+  "2026-02-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-sun-66",
+    "difficulty": "Normal"
+  },
+  "2026-02-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "gamma-flux-59",
+    "difficulty": "Hard"
+  },
+  "2026-02-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-moon-20",
+    "difficulty": "Hard"
+  },
+  "2026-02-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-node-72",
+    "difficulty": "Normal"
+  },
+  "2026-02-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-sun-12",
+    "difficulty": "Normal"
+  },
+  "2026-02-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-pulse-31",
+    "difficulty": "Hard"
+  },
+  "2026-02-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "delta-prime-49",
+    "difficulty": "Hard"
+  },
+  "2026-02-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-omega-13",
+    "difficulty": "Normal"
+  },
+  "2026-02-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-star-44",
+    "difficulty": "Hard"
+  },
+  "2026-02-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-sun-49",
+    "difficulty": "Normal"
+  },
+  "2026-02-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-omega-97",
+    "difficulty": "Normal"
+  },
+  "2026-02-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-star-70",
+    "difficulty": "Hard"
+  },
+  "2026-02-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-sun-18",
+    "difficulty": "Normal"
+  },
+  "2026-02-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-pulse-20",
+    "difficulty": "Normal"
+  },
+  "2026-02-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-star-76",
+    "difficulty": "Hard"
+  },
+  "2026-02-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-flux-91",
+    "difficulty": "Normal"
+  },
+  "2026-02-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "delta-prime-52",
+    "difficulty": "Hard"
+  },
+  "2026-02-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-moon-98",
+    "difficulty": "Hard"
+  },
+  "2026-02-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-sun-78",
+    "difficulty": "Normal"
+  },
+  "2026-02-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-star-21",
+    "difficulty": "Normal"
+  },
+  "2026-02-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-node-46",
+    "difficulty": "Hard"
+  },
+  "2026-02-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "prime-star-29",
+    "difficulty": "Hard"
+  },
+  "2026-02-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-prime-62",
+    "difficulty": "Normal"
+  },
+  "2026-02-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-core-40",
+    "difficulty": "Hard"
+  },
+  "2026-02-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-core-94",
+    "difficulty": "Normal"
+  },
+  "2026-03-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-omega-21",
+    "difficulty": "Normal"
+  },
+  "2026-03-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-star-80",
+    "difficulty": "Hard"
+  },
+  "2026-03-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-core-76",
+    "difficulty": "Normal"
+  },
+  "2026-03-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-prime-43",
+    "difficulty": "Normal"
+  },
+  "2026-03-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-star-95",
+    "difficulty": "Hard"
+  },
+  "2026-03-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-sun-21",
+    "difficulty": "Normal"
+  },
+  "2026-03-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-moon-96",
+    "difficulty": "Hard"
+  },
+  "2026-03-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-omega-41",
+    "difficulty": "Hard"
+  },
+  "2026-03-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-pulse-20",
+    "difficulty": "Normal"
+  },
+  "2026-03-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-star-87",
+    "difficulty": "Normal"
+  },
+  "2026-03-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-node-22",
+    "difficulty": "Hard"
+  },
+  "2026-03-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "nova-star-62",
+    "difficulty": "Hard"
+  },
+  "2026-03-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-wave-81",
+    "difficulty": "Normal"
+  },
+  "2026-03-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-prime-55",
+    "difficulty": "Hard"
+  },
+  "2026-03-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-pulse-54",
+    "difficulty": "Normal"
+  },
+  "2026-03-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-pulse-49",
+    "difficulty": "Normal"
+  },
+  "2026-03-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-sun-13",
+    "difficulty": "Hard"
+  },
+  "2026-03-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-core-16",
+    "difficulty": "Normal"
+  },
+  "2026-03-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-wave-61",
+    "difficulty": "Normal"
+  },
+  "2026-03-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-moon-24",
+    "difficulty": "Hard"
+  },
+  "2026-03-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-star-94",
+    "difficulty": "Normal"
+  },
+  "2026-03-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "alpha-star-97",
+    "difficulty": "Hard"
+  },
+  "2026-03-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-star-45",
+    "difficulty": "Hard"
+  },
+  "2026-03-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-moon-49",
+    "difficulty": "Normal"
+  },
+  "2026-03-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-node-51",
+    "difficulty": "Normal"
+  },
+  "2026-03-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-wave-96",
+    "difficulty": "Hard"
+  },
+  "2026-03-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "solar-moon-72",
+    "difficulty": "Hard"
+  },
+  "2026-03-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-omega-16",
+    "difficulty": "Normal"
+  },
+  "2026-03-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-omega-75",
+    "difficulty": "Hard"
+  },
+  "2026-03-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-moon-78",
+    "difficulty": "Normal"
+  },
+  "2026-03-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-prime-25",
+    "difficulty": "Normal"
+  },
+  "2026-04-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-sun-81",
+    "difficulty": "Hard"
+  },
+  "2026-04-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-core-71",
+    "difficulty": "Normal"
+  },
+  "2026-04-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-flux-88",
+    "difficulty": "Normal"
+  },
+  "2026-04-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-pulse-47",
+    "difficulty": "Hard"
+  },
+  "2026-04-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-omega-96",
+    "difficulty": "Normal"
+  },
+  "2026-04-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "prime-prime-12",
+    "difficulty": "Hard"
+  },
+  "2026-04-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-sun-14",
+    "difficulty": "Hard"
+  },
+  "2026-04-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-star-20",
+    "difficulty": "Normal"
+  },
+  "2026-04-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-core-98",
+    "difficulty": "Normal"
+  },
+  "2026-04-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "beta-flux-74",
+    "difficulty": "Hard"
+  },
+  "2026-04-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-sun-90",
+    "difficulty": "Hard"
+  },
+  "2026-04-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-star-33",
+    "difficulty": "Normal"
+  },
+  "2026-04-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-sun-12",
+    "difficulty": "Hard"
+  },
+  "2026-04-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-pulse-21",
+    "difficulty": "Normal"
+  },
+  "2026-04-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-pulse-11",
+    "difficulty": "Normal"
+  },
+  "2026-04-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-flux-81",
+    "difficulty": "Hard"
+  },
+  "2026-04-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-pulse-34",
+    "difficulty": "Normal"
+  },
+  "2026-04-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-core-10",
+    "difficulty": "Normal"
+  },
+  "2026-04-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-omega-46",
+    "difficulty": "Hard"
+  },
+  "2026-04-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-omega-45",
+    "difficulty": "Normal"
+  },
+  "2026-04-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "nova-wave-61",
+    "difficulty": "Hard"
+  },
+  "2026-04-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-pulse-72",
+    "difficulty": "Hard"
+  },
+  "2026-04-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-node-55",
+    "difficulty": "Normal"
+  },
+  "2026-04-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-omega-52",
+    "difficulty": "Normal"
+  },
+  "2026-04-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-core-65",
+    "difficulty": "Hard"
+  },
+  "2026-04-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "zero-sun-14",
+    "difficulty": "Hard"
+  },
+  "2026-04-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-flux-79",
+    "difficulty": "Normal"
+  },
+  "2026-04-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-sun-22",
+    "difficulty": "Hard"
+  },
+  "2026-04-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-star-74",
+    "difficulty": "Normal"
+  },
+  "2026-04-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-star-65",
+    "difficulty": "Normal"
+  },
+  "2026-05-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-omega-14",
+    "difficulty": "Hard"
+  },
+  "2026-05-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-omega-24",
+    "difficulty": "Normal"
+  },
+  "2026-05-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-pulse-43",
+    "difficulty": "Normal"
+  },
+  "2026-05-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-sun-86",
+    "difficulty": "Hard"
+  },
+  "2026-05-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-core-26",
+    "difficulty": "Normal"
+  },
+  "2026-05-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-prime-16",
+    "difficulty": "Hard"
+  },
+  "2026-05-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-flux-39",
+    "difficulty": "Hard"
+  },
+  "2026-05-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-star-72",
+    "difficulty": "Normal"
+  },
+  "2026-05-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-moon-46",
+    "difficulty": "Normal"
+  },
+  "2026-05-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-core-86",
+    "difficulty": "Hard"
+  },
+  "2026-05-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "solar-wave-86",
+    "difficulty": "Hard"
+  },
+  "2026-05-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-wave-95",
+    "difficulty": "Normal"
+  },
+  "2026-05-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-flux-89",
+    "difficulty": "Hard"
+  },
+  "2026-05-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-flux-76",
+    "difficulty": "Normal"
+  },
+  "2026-05-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-wave-18",
+    "difficulty": "Normal"
+  },
+  "2026-05-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-moon-85",
+    "difficulty": "Hard"
+  },
+  "2026-05-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-core-42",
+    "difficulty": "Normal"
+  },
+  "2026-05-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-sun-57",
+    "difficulty": "Normal"
+  },
+  "2026-05-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-omega-49",
+    "difficulty": "Hard"
+  },
+  "2026-05-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-sun-49",
+    "difficulty": "Normal"
+  },
+  "2026-05-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "lunar-sun-13",
+    "difficulty": "Hard"
+  },
+  "2026-05-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-moon-31",
+    "difficulty": "Hard"
+  },
+  "2026-05-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-core-10",
+    "difficulty": "Normal"
+  },
+  "2026-05-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-wave-88",
+    "difficulty": "Normal"
+  },
+  "2026-05-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-wave-66",
+    "difficulty": "Hard"
+  },
+  "2026-05-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "prime-core-17",
+    "difficulty": "Hard"
+  },
+  "2026-05-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-flux-25",
+    "difficulty": "Normal"
+  },
+  "2026-05-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-omega-10",
+    "difficulty": "Hard"
+  },
+  "2026-05-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-omega-93",
+    "difficulty": "Normal"
+  },
+  "2026-05-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-core-89",
+    "difficulty": "Normal"
+  },
+  "2026-05-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-prime-32",
+    "difficulty": "Hard"
+  },
+  "2026-06-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-prime-10",
+    "difficulty": "Normal"
+  },
+  "2026-06-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-node-14",
+    "difficulty": "Normal"
+  },
+  "2026-06-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-star-43",
+    "difficulty": "Hard"
+  },
+  "2026-06-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-core-73",
+    "difficulty": "Normal"
+  },
+  "2026-06-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "lunar-sun-22",
+    "difficulty": "Hard"
+  },
+  "2026-06-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-node-14",
+    "difficulty": "Hard"
+  },
+  "2026-06-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-prime-48",
+    "difficulty": "Normal"
+  },
+  "2026-06-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-star-57",
+    "difficulty": "Normal"
+  },
+  "2026-06-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-core-39",
+    "difficulty": "Hard"
+  },
+  "2026-06-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "nova-wave-56",
+    "difficulty": "Hard"
+  },
+  "2026-06-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-core-39",
+    "difficulty": "Normal"
+  },
+  "2026-06-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-node-18",
+    "difficulty": "Hard"
+  },
+  "2026-06-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-star-28",
+    "difficulty": "Normal"
+  },
+  "2026-06-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-node-36",
+    "difficulty": "Normal"
+  },
+  "2026-06-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-wave-49",
+    "difficulty": "Hard"
+  },
+  "2026-06-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-sun-71",
+    "difficulty": "Normal"
+  },
+  "2026-06-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-flux-94",
+    "difficulty": "Normal"
+  },
+  "2026-06-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-node-88",
+    "difficulty": "Hard"
+  },
+  "2026-06-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-star-30",
+    "difficulty": "Normal"
+  },
+  "2026-06-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-star-99",
+    "difficulty": "Hard"
+  },
+  "2026-06-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-node-53",
+    "difficulty": "Hard"
+  },
+  "2026-06-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-core-86",
+    "difficulty": "Normal"
+  },
+  "2026-06-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-moon-50",
+    "difficulty": "Normal"
+  },
+  "2026-06-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-sun-88",
+    "difficulty": "Hard"
+  },
+  "2026-06-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "nova-core-45",
+    "difficulty": "Hard"
+  },
+  "2026-06-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-node-97",
+    "difficulty": "Normal"
+  },
+  "2026-06-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-prime-11",
+    "difficulty": "Hard"
+  },
+  "2026-06-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-sun-42",
+    "difficulty": "Normal"
+  },
+  "2026-06-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-pulse-89",
+    "difficulty": "Normal"
+  },
+  "2026-06-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-moon-15",
+    "difficulty": "Hard"
+  },
+  "2026-07-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-pulse-72",
+    "difficulty": "Normal"
+  },
+  "2026-07-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-node-94",
+    "difficulty": "Normal"
+  },
+  "2026-07-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-moon-21",
+    "difficulty": "Hard"
+  },
+  "2026-07-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-omega-51",
+    "difficulty": "Normal"
+  },
+  "2026-07-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "gamma-star-25",
+    "difficulty": "Hard"
+  },
+  "2026-07-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "beta-prime-25",
+    "difficulty": "Hard"
+  },
+  "2026-07-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-star-29",
+    "difficulty": "Normal"
+  },
+  "2026-07-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-flux-87",
+    "difficulty": "Normal"
+  },
+  "2026-07-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-star-14",
+    "difficulty": "Hard"
+  },
+  "2026-07-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-prime-27",
+    "difficulty": "Hard"
+  },
+  "2026-07-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-moon-42",
+    "difficulty": "Normal"
+  },
+  "2026-07-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-omega-22",
+    "difficulty": "Hard"
+  },
+  "2026-07-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-star-86",
+    "difficulty": "Normal"
+  },
+  "2026-07-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-star-87",
+    "difficulty": "Normal"
+  },
+  "2026-07-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-moon-67",
+    "difficulty": "Hard"
+  },
+  "2026-07-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-wave-80",
+    "difficulty": "Normal"
+  },
+  "2026-07-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-sun-85",
+    "difficulty": "Normal"
+  },
+  "2026-07-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-pulse-66",
+    "difficulty": "Hard"
+  },
+  "2026-07-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-moon-48",
+    "difficulty": "Normal"
+  },
+  "2026-07-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "nova-flux-68",
+    "difficulty": "Hard"
+  },
+  "2026-07-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-moon-98",
+    "difficulty": "Hard"
+  },
+  "2026-07-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-node-24",
+    "difficulty": "Normal"
+  },
+  "2026-07-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-moon-36",
+    "difficulty": "Normal"
+  },
+  "2026-07-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-omega-59",
+    "difficulty": "Hard"
+  },
+  "2026-07-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "delta-sun-37",
+    "difficulty": "Hard"
+  },
+  "2026-07-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-pulse-45",
+    "difficulty": "Normal"
+  },
+  "2026-07-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-core-37",
+    "difficulty": "Hard"
+  },
+  "2026-07-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-node-26",
+    "difficulty": "Normal"
+  },
+  "2026-07-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-wave-32",
+    "difficulty": "Normal"
+  },
+  "2026-07-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-moon-42",
+    "difficulty": "Hard"
+  },
+  "2026-07-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-node-26",
+    "difficulty": "Normal"
+  },
+  "2026-08-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-core-79",
+    "difficulty": "Normal"
+  },
+  "2026-08-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-core-73",
+    "difficulty": "Hard"
+  },
+  "2026-08-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-core-40",
+    "difficulty": "Normal"
+  },
+  "2026-08-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "lunar-prime-61",
+    "difficulty": "Hard"
+  },
+  "2026-08-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-omega-45",
+    "difficulty": "Hard"
+  },
+  "2026-08-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-node-14",
+    "difficulty": "Normal"
+  },
+  "2026-08-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-prime-83",
+    "difficulty": "Normal"
+  },
+  "2026-08-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-wave-40",
+    "difficulty": "Hard"
+  },
+  "2026-08-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-star-24",
+    "difficulty": "Hard"
+  },
+  "2026-08-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-prime-23",
+    "difficulty": "Normal"
+  },
+  "2026-08-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-node-20",
+    "difficulty": "Hard"
+  },
+  "2026-08-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-pulse-87",
+    "difficulty": "Normal"
+  },
+  "2026-08-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-moon-31",
+    "difficulty": "Normal"
+  },
+  "2026-08-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-node-95",
+    "difficulty": "Hard"
+  },
+  "2026-08-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-wave-74",
+    "difficulty": "Normal"
+  },
+  "2026-08-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-star-81",
+    "difficulty": "Normal"
+  },
+  "2026-08-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-flux-79",
+    "difficulty": "Hard"
+  },
+  "2026-08-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-omega-24",
+    "difficulty": "Normal"
+  },
+  "2026-08-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-omega-36",
+    "difficulty": "Hard"
+  },
+  "2026-08-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-pulse-57",
+    "difficulty": "Hard"
+  },
+  "2026-08-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-wave-56",
+    "difficulty": "Normal"
+  },
+  "2026-08-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-sun-73",
+    "difficulty": "Normal"
+  },
+  "2026-08-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-star-34",
+    "difficulty": "Hard"
+  },
+  "2026-08-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-node-49",
+    "difficulty": "Hard"
+  },
+  "2026-08-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-star-89",
+    "difficulty": "Normal"
+  },
+  "2026-08-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-sun-33",
+    "difficulty": "Hard"
+  },
+  "2026-08-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-flux-48",
+    "difficulty": "Normal"
+  },
+  "2026-08-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-node-54",
+    "difficulty": "Normal"
+  },
+  "2026-08-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-sun-74",
+    "difficulty": "Hard"
+  },
+  "2026-08-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-omega-70",
+    "difficulty": "Normal"
+  },
+  "2026-08-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-flux-52",
+    "difficulty": "Normal"
+  },
+  "2026-09-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-node-54",
+    "difficulty": "Hard"
+  },
+  "2026-09-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-moon-52",
+    "difficulty": "Normal"
+  },
+  "2026-09-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "lunar-star-93",
+    "difficulty": "Hard"
+  },
+  "2026-09-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-omega-42",
+    "difficulty": "Hard"
+  },
+  "2026-09-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-moon-53",
+    "difficulty": "Normal"
+  },
+  "2026-09-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-node-21",
+    "difficulty": "Normal"
+  },
+  "2026-09-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-node-38",
+    "difficulty": "Hard"
+  },
+  "2026-09-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "nova-wave-44",
+    "difficulty": "Hard"
+  },
+  "2026-09-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-prime-62",
+    "difficulty": "Normal"
+  },
+  "2026-09-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-wave-26",
+    "difficulty": "Hard"
+  },
+  "2026-09-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-pulse-36",
+    "difficulty": "Normal"
+  },
+  "2026-09-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-pulse-81",
+    "difficulty": "Normal"
+  },
+  "2026-09-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-wave-14",
+    "difficulty": "Hard"
+  },
+  "2026-09-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-pulse-17",
+    "difficulty": "Normal"
+  },
+  "2026-09-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-prime-17",
+    "difficulty": "Normal"
+  },
+  "2026-09-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-star-35",
+    "difficulty": "Hard"
+  },
+  "2026-09-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-star-55",
+    "difficulty": "Normal"
+  },
+  "2026-09-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "delta-node-22",
+    "difficulty": "Hard"
+  },
+  "2026-09-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-omega-86",
+    "difficulty": "Hard"
+  },
+  "2026-09-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-node-87",
+    "difficulty": "Normal"
+  },
+  "2026-09-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-star-30",
+    "difficulty": "Normal"
+  },
+  "2026-09-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "beta-moon-13",
+    "difficulty": "Hard"
+  },
+  "2026-09-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "delta-core-53",
+    "difficulty": "Hard"
+  },
+  "2026-09-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-moon-34",
+    "difficulty": "Normal"
+  },
+  "2026-09-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-flux-90",
+    "difficulty": "Hard"
+  },
+  "2026-09-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-node-56",
+    "difficulty": "Normal"
+  },
+  "2026-09-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-core-54",
+    "difficulty": "Normal"
+  },
+  "2026-09-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-pulse-67",
+    "difficulty": "Hard"
+  },
+  "2026-09-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-moon-15",
+    "difficulty": "Normal"
+  },
+  "2026-09-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-flux-59",
+    "difficulty": "Normal"
+  },
+  "2026-10-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-omega-71",
+    "difficulty": "Hard"
+  },
+  "2026-10-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-node-94",
+    "difficulty": "Normal"
+  },
+  "2026-10-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "zero-prime-83",
+    "difficulty": "Hard"
+  },
+  "2026-10-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "beta-omega-79",
+    "difficulty": "Hard"
+  },
+  "2026-10-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-sun-80",
+    "difficulty": "Normal"
+  },
+  "2026-10-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-pulse-80",
+    "difficulty": "Normal"
+  },
+  "2026-10-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-node-59",
+    "difficulty": "Hard"
+  },
+  "2026-10-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "lunar-node-92",
+    "difficulty": "Hard"
+  },
+  "2026-10-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-flux-14",
+    "difficulty": "Normal"
+  },
+  "2026-10-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-core-65",
+    "difficulty": "Hard"
+  },
+  "2026-10-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-wave-14",
+    "difficulty": "Normal"
+  },
+  "2026-10-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-prime-91",
+    "difficulty": "Normal"
+  },
+  "2026-10-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-wave-26",
+    "difficulty": "Hard"
+  },
+  "2026-10-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-prime-40",
+    "difficulty": "Normal"
+  },
+  "2026-10-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-node-76",
+    "difficulty": "Normal"
+  },
+  "2026-10-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-node-12",
+    "difficulty": "Hard"
+  },
+  "2026-10-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-pulse-36",
+    "difficulty": "Normal"
+  },
+  "2026-10-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "prime-omega-54",
+    "difficulty": "Hard"
+  },
+  "2026-10-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-prime-51",
+    "difficulty": "Hard"
+  },
+  "2026-10-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-prime-45",
+    "difficulty": "Normal"
+  },
+  "2026-10-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-omega-45",
+    "difficulty": "Normal"
+  },
+  "2026-10-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-sun-47",
+    "difficulty": "Hard"
+  },
+  "2026-10-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-omega-56",
+    "difficulty": "Hard"
+  },
+  "2026-10-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-node-99",
+    "difficulty": "Normal"
+  },
+  "2026-10-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "gamma-node-67",
+    "difficulty": "Hard"
+  },
+  "2026-10-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "nova-star-28",
+    "difficulty": "Normal"
+  },
+  "2026-10-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-star-29",
+    "difficulty": "Normal"
+  },
+  "2026-10-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-sun-91",
+    "difficulty": "Hard"
+  },
+  "2026-10-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-pulse-20",
+    "difficulty": "Normal"
+  },
+  "2026-10-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-wave-78",
+    "difficulty": "Normal"
+  },
+  "2026-10-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-wave-99",
+    "difficulty": "Hard"
+  },
+  "2026-11-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-sun-40",
+    "difficulty": "Normal"
+  },
+  "2026-11-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-flux-62",
+    "difficulty": "Hard"
+  },
+  "2026-11-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-sun-18",
+    "difficulty": "Hard"
+  },
+  "2026-11-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-node-99",
+    "difficulty": "Normal"
+  },
+  "2026-11-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-flux-71",
+    "difficulty": "Normal"
+  },
+  "2026-11-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-node-51",
+    "difficulty": "Hard"
+  },
+  "2026-11-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "solar-star-74",
+    "difficulty": "Hard"
+  },
+  "2026-11-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-prime-51",
+    "difficulty": "Normal"
+  },
+  "2026-11-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-omega-76",
+    "difficulty": "Hard"
+  },
+  "2026-11-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-pulse-17",
+    "difficulty": "Normal"
+  },
+  "2026-11-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-node-17",
+    "difficulty": "Normal"
+  },
+  "2026-11-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-wave-57",
+    "difficulty": "Hard"
+  },
+  "2026-11-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-node-87",
+    "difficulty": "Normal"
+  },
+  "2026-11-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-pulse-36",
+    "difficulty": "Normal"
+  },
+  "2026-11-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "omega-pulse-77",
+    "difficulty": "Hard"
+  },
+  "2026-11-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-star-58",
+    "difficulty": "Normal"
+  },
+  "2026-11-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-star-47",
+    "difficulty": "Hard"
+  },
+  "2026-11-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-node-88",
+    "difficulty": "Hard"
+  },
+  "2026-11-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-star-17",
+    "difficulty": "Normal"
+  },
+  "2026-11-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-prime-52",
+    "difficulty": "Normal"
+  },
+  "2026-11-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "lunar-sun-25",
+    "difficulty": "Hard"
+  },
+  "2026-11-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-prime-74",
+    "difficulty": "Hard"
+  },
+  "2026-11-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "beta-node-85",
+    "difficulty": "Normal"
+  },
+  "2026-11-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-moon-63",
+    "difficulty": "Hard"
+  },
+  "2026-11-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "solar-sun-28",
+    "difficulty": "Normal"
+  },
+  "2026-11-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-wave-49",
+    "difficulty": "Normal"
+  },
+  "2026-11-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-omega-80",
+    "difficulty": "Hard"
+  },
+  "2026-11-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-moon-12",
+    "difficulty": "Normal"
+  },
+  "2026-11-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-flux-69",
+    "difficulty": "Normal"
+  },
+  "2026-11-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "beta-pulse-75",
+    "difficulty": "Hard"
+  },
+  "2026-12-01": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-star-65",
+    "difficulty": "Normal"
+  },
+  "2026-12-02": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "zero-omega-50",
+    "difficulty": "Hard"
+  },
+  "2026-12-03": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-omega-36",
+    "difficulty": "Hard"
+  },
+  "2026-12-04": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-moon-56",
+    "difficulty": "Normal"
+  },
+  "2026-12-05": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-omega-70",
+    "difficulty": "Normal"
+  },
+  "2026-12-06": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-sun-32",
+    "difficulty": "Hard"
+  },
+  "2026-12-07": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "omega-omega-84",
+    "difficulty": "Hard"
+  },
+  "2026-12-08": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-flux-70",
+    "difficulty": "Normal"
+  },
+  "2026-12-09": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "delta-wave-21",
+    "difficulty": "Hard"
+  },
+  "2026-12-10": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-pulse-28",
+    "difficulty": "Normal"
+  },
+  "2026-12-11": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "zero-wave-31",
+    "difficulty": "Normal"
+  },
+  "2026-12-12": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-pulse-91",
+    "difficulty": "Hard"
+  },
+  "2026-12-13": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-pulse-69",
+    "difficulty": "Normal"
+  },
+  "2026-12-14": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-pulse-97",
+    "difficulty": "Normal"
+  },
+  "2026-12-15": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "solar-node-13",
+    "difficulty": "Hard"
+  },
+  "2026-12-16": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-flux-79",
+    "difficulty": "Normal"
+  },
+  "2026-12-17": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "solar-core-69",
+    "difficulty": "Hard"
+  },
+  "2026-12-18": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "prime-omega-53",
+    "difficulty": "Hard"
+  },
+  "2026-12-19": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-star-79",
+    "difficulty": "Normal"
+  },
+  "2026-12-20": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-star-32",
+    "difficulty": "Normal"
+  },
+  "2026-12-21": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-omega-10",
+    "difficulty": "Hard"
+  },
+  "2026-12-22": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seed": "beta-omega-42",
+    "difficulty": "Hard"
+  },
+  "2026-12-23": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "delta-node-86",
+    "difficulty": "Normal"
+  },
+  "2026-12-24": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "alpha-flux-75",
+    "difficulty": "Hard"
+  },
+  "2026-12-25": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "gamma-prime-83",
+    "difficulty": "Normal"
+  },
+  "2026-12-26": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "prime-prime-77",
+    "difficulty": "Normal"
+  },
+  "2026-12-27": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "nova-wave-44",
+    "difficulty": "Hard"
+  },
+  "2026-12-28": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "lunar-pulse-96",
+    "difficulty": "Normal"
+  },
+  "2026-12-29": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "omega-core-21",
+    "difficulty": "Normal"
+  },
+  "2026-12-30": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seed": "zero-omega-98",
+    "difficulty": "Hard"
+  },
+  "2026-12-31": {
+    "tiles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": "alpha-prime-86",
+    "difficulty": "Normal"
+  }
+}
