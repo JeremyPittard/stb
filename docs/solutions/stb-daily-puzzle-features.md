@@ -100,3 +100,24 @@ This ensures:
 - 9 tiles: 3×3 grid
 - 10 tiles: 4×3 grid (4 cols, 3 rows)
 - 12 tiles: 4×3 grid (4 cols, 3 rows)
+
+## LocalStorage Persistence Bug
+
+Game state was resetting on page refresh because of incorrect condition check.
+
+**Problem:** The condition `!saved.isComplete` prevented loading saved state after game ended. When user refreshed the page, the code would check if game was complete and start a new game instead of showing GameOver screen.
+
+**Solution:** Removed the `!saved.isComplete` check - now loads saved state regardless of completion status. This allows:
+- Mid-game: Continue where left off
+- Completed game: Show GameOver screen with result
+
+```typescript
+// Before (broken)
+if (saved && saved.activeDate === activeDateKey && saved.tileState && !saved.isComplete) {
+
+// After (fixed)
+if (saved && saved.activeDate === activeDateKey && saved.tileState) {
+```
+
+**Key code location:**
+- `src/App.tsx:52` - Removed `!saved.isComplete` check
