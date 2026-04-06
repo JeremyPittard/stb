@@ -27,7 +27,7 @@ export function GameOver({ result, score, burnUsed, tiles, date }: GameOverProps
     gridStr += rowChars.join(' ') + '\n';
   }
   
-  const shareText = `STB ${date}
+  const shareText = `Lock 'n Roll ${date}
 Score: ${score} ${score === 0 ? '(WIN!)' : ''}
 ${burnUsed ? '[Burn Used]' : '[Clean Run]'}
 ${gridStr}`;

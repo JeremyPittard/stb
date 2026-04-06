@@ -312,7 +312,7 @@ function App() {
       <div className="app">
         <div className="error-screen">
           <div className="header">
-            <h1 className="title">STB</h1>
+            <h1 className="title">Lock 'n Roll</h1>
             <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
           </div>
           <p className="error-message">{error}</p>
@@ -325,7 +325,7 @@ function App() {
     return (
       <div className="app">
         <div className="header">
-          <h1 className="title">STB</h1>
+          <h1 className="title">Lock 'n Roll</h1>
           <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
         </div>
       </div>
@@ -342,7 +342,7 @@ function App() {
     return (
       <div className="app">
         <div className="header">
-          <h1 className="title">STB</h1>
+          <h1 className="title">Lock 'n Roll</h1>
           <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
         </div>
         <GameOver
@@ -359,7 +359,7 @@ function App() {
   return (
     <div className="app">
       <div className="header">
-        <h1 className="title">STB</h1>
+        <h1 className="title">Lock 'n Roll</h1>
         <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
       </div>
       <div className="date">{activeDateKey}</div>

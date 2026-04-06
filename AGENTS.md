@@ -1,4 +1,4 @@
-# AGENTS.md - STB Game
+# AGENTS.md - Lock 'n Roll Game
 
 ## Project Overview
 

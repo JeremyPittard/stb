@@ -79,10 +79,8 @@ def generate_seed():
 
 def generate_tile_set(day_of_year):
     base = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    if day_of_year % 3 == 0:
+    if day_of_year % 2 == 0:
         return base + [10, 11, 12]
-    elif day_of_year % 5 == 0:
-        return base + [10]
     return base
 
 def main():

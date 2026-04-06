@@ -9,7 +9,7 @@ export interface AdConfig {
 export type AdCallback = (success: boolean) => void;
 
 const DEFAULT_AD: AdConfig = {
-  title: 'STB Design',
+  title: 'Lock n Roll Design',
   body: 'Your trusted design agency',
   link: 'https://example.com',
   linkText: 'Learn More',
