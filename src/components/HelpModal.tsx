@@ -1,3 +1,35 @@
+interface SplashScreenProps {
+  date: string;
+  onPlay: () => void;
+  onHelp: () => void;
+}
+
+export function SplashScreen({ date, onPlay, onHelp }: SplashScreenProps) {
+  return (
+    <div className="splash-screen">
+      <svg className="splash-logo" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="100" height="100" rx="8" stroke="currentColor" strokeWidth="3" fill="none" opacity="0.3"/>
+        <text x="60" y="75" textAnchor="middle" fontSize="48" fontWeight="bold" fill="currentColor">?</text>
+      </svg>
+      <h1 className="title">Lock 'n Roll</h1>
+      <div className="date">{date}</div>
+
+      <div className="splash-buttons">
+        <button className="btn btn-secondary" onClick={onHelp}>
+          How to Play
+        </button>
+        <button className="btn btn-primary" onClick={onPlay}>
+          Play
+        </button>
+      </div>
+
+      <footer className="footer">
+        <a href="/privacy.html" target="_blank">Privacy Policy</a>
+      </footer>
+    </div>
+  );
+}
+
 interface HelpModalProps {
   onClose: () => void;
 }
@@ -17,22 +49,22 @@ export function HelpModal({ onClose }: HelpModalProps) {
 
         <div className="help-section">
           <h3>Rolling</h3>
-          <p>Roll two dice each turn. You must match the dice total exactly using un-shut tiles. You always roll 2 dice - even if only small tiles remain.</p>
+          <p>Roll two dice each turn. You must match the dice total exactly using un-shut tiles.</p>
         </div>
 
         <div className="help-section">
           <h3>Shutting Tiles</h3>
-          <p>Select tiles that add up to the dice total. You can use any combination of tiles.</p>
+          <p>Select tiles that add up to the dice total. You can use any combination.</p>
         </div>
 
         <div className="help-section">
           <h3>Burn</h3>
-          <p>If you get stuck with no valid moves, you can use the Burn feature once per game to skip the current dice.</p>
+          <p>Use the Burn feature once per game to skip dice when stuck.</p>
         </div>
 
         <div className="help-section">
           <h3>Winning</h3>
-          <p>Score 0 by shutting all tiles. A "Clean Run" means you won without using Burn.</p>
+          <p>Score 0 by shutting all tiles. A "Clean Run" means you won without Burn.</p>
         </div>
 
         <button className="btn btn-primary" onClick={onClose}>

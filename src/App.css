@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background: var(--bg);
   color: var(--fg);
   min-height: 100vh;
@@ -31,6 +31,10 @@ body {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
+}
+
+.game-screen {
+  padding-top: 48px;
 }
 
 .title {
@@ -74,7 +78,60 @@ body {
 .date {
   font-size: 16px;
   color: var(--fg-dim);
+  margin-bottom: 24px;
+}
+
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 16px;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.splash-logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 16px;
+}
+
+.splash-screen .title {
+  margin-bottom: 8px;
+  max-width: min-content;
+}
+
+.splash-screen .help-section {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.splash-screen .help-section h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   margin-bottom: 4px;
+  color: var(--fg);
+}
+
+.splash-screen .help-section p {
+  font-size: 14px;
+  color: var(--fg-dim);
+  margin: 0;
+}
+
+.splash-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 200px;
+  margin-top: 24px;
+}
+
+.splash-screen .footer {
+  margin-top: 48px;
 }
 
 .difficulty {
@@ -135,22 +192,24 @@ body {
   background: var(--fg);
 }
 
-.tile-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.tile-grid-container {
+  display: flex;
+  flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
   width: 100%;
-  max-width: 400px;
+  max-width: 360px;
+  justify-content: center;
 }
 
 .tile {
+  width: 108px;
   aspect-ratio: 1;
   background: var(--tile-open);
   border: 2px solid var(--border);
   color: var(--fg);
   font-size: 36px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -202,7 +261,7 @@ body {
 .btn {
   padding: 18px 32px;
   border: 2px solid;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
@@ -365,7 +424,7 @@ body {
   color: var(--bg);
   border: 2px solid var(--fg);
   padding: 14px 24px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
@@ -379,10 +438,6 @@ body {
 
 .btn-tv:hover {
   opacity: 0.9;
-}
-
-.tv-icon {
-  font-size: 18px;
 }
 
 .modal-content h2 {
@@ -411,7 +466,8 @@ body {
   text-align: left;
 }
 
-.help-section h3, .help-section h4 {
+.help-section h3,
+.help-section h4 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -439,13 +495,14 @@ body {
   background: var(--bg);
   padding: 16px;
   font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: left;
   white-space: pre-wrap;
   word-break: break-all;
   margin-bottom: 16px;
   border: 1px solid var(--border);
   line-height: 1.4;
+  text-align: center;
 }
 
 .come-back {
@@ -459,14 +516,18 @@ body {
     padding: 24px 12px;
   }
 
+  .game-screen {
+    padding-top: 48px;
+  }
+
   .title {
     font-size: 40px;
     letter-spacing: 4px;
   }
 
   .die {
-    width: 72px;
-    height: 72px;
+    width: 84px;
+    height: 84px;
     padding: 8px;
     gap: 4px;
   }
@@ -475,13 +536,13 @@ body {
     gap: 20px;
   }
 
-  .tile-grid {
-    grid-template-columns: repeat(3, 1fr);
+  .tile-grid-container {
     gap: 8px;
-    max-width: 300px;
+    max-width: 280px;
   }
 
   .tile {
+    width: 84px;
     font-size: 28px;
   }
 

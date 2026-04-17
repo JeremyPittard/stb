@@ -12,19 +12,17 @@ interface GameOverProps {
 export function GameOver({ result, score, burnUsed, tiles, date }: GameOverProps) {
   const [copied, setCopied] = useState(false);
 
-  const cols = Math.ceil(Math.sqrt(tiles.length));
-  const gridRows = Math.ceil(tiles.length / cols);
-  
+  const rows = [
+    tiles.slice(0, 3),
+    tiles.slice(3, 6),
+    tiles.slice(6, 9),
+    tiles.slice(9, 10),
+  ];
+
   let gridStr = '';
-  for (let row = 0; row < gridRows; row++) {
-    const rowChars: string[] = [];
-    for (let col = 0; col < cols; col++) {
-      const idx = row * cols + col;
-      if (idx < tiles.length) {
-        rowChars.push(tiles[idx].isShut ? '█' : '▫');
-      }
-    }
-    gridStr += rowChars.join(' ') + '\n';
+  for (const row of rows) {
+    if (row.length === 0) break;
+    gridStr += row.map(t => t.isShut ? '█' : '▫').join(' ') + '\n';
   }
   
   const shareText = `Lock 'n Roll ${date}

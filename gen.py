@@ -67,7 +67,7 @@ def try_solve(tiles, dice_pairs):
                 return True
     return False
 
-def can_solve_no_burn(tiles_tuple, seed, max_dice=25):
+def can_solve_no_burn(tiles_tuple, seed, max_dice=35):
     """Check if puzzle is solvable without burn"""
     dice_pairs = get_dice_for_seed(seed, max_dice)
     return try_solve(tiles_tuple, dice_pairs)
@@ -77,11 +77,7 @@ def generate_seed():
     nouns = ['omega', 'prime', 'star', 'moon', 'sun', 'core', 'node', 'flux', 'wave', 'pulse']
     return f"{random.choice(adjectives)}-{random.choice(nouns)}-{random.randint(10, 99)}"
 
-def generate_tile_set(day_of_year):
-    base = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    if day_of_year % 2 == 0:
-        return base + [10, 11, 12]
-    return base
+TILES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 def main():
     challenges = {}
@@ -96,7 +92,7 @@ def main():
         current_date = start_date + timedelta(days=i)
         date_key = current_date.isoformat()
         
-        tiles = generate_tile_set(i)
+        tiles = TILES
         tiles_tuple = tuple(tiles)
         
         for attempt in range(100):
@@ -105,10 +101,9 @@ def main():
                 challenges[date_key] = {
                     'tiles': tiles,
                     'seed': seed,
-                    'difficulty': 'Normal' if len(tiles) <= 9 else 'Hard'
                 }
                 ok_without_burn += 1
-                print(f"[OK] {date_key}: {len(tiles)} tiles, {seed}")
+                print(f"[OK] {date_key}: {seed}")
                 break
         else:
             # Fallback - just use any seed
@@ -116,10 +111,9 @@ def main():
             challenges[date_key] = {
                 'tiles': tiles,
                 'seed': seed,
-                'difficulty': 'Normal' if len(tiles) <= 9 else 'Hard'
             }
             failed += 1
-            print(f"[--] {date_key}: {len(tiles)} tiles, {seed} (untested)")
+            print(f"[--] {date_key}: {seed} (untested)")
     
     with open('challenges.json', 'w') as f:
         json.dump(challenges, f, indent=2)

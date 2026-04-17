@@ -9,7 +9,7 @@ interface TileGridProps {
 
 export function TileGrid({ tiles, selectedTiles, onToggle, disabled }: TileGridProps) {
   return (
-    <div className="tile-grid" role="group" aria-label="Tile selection grid">
+    <div className="tile-grid-container" role="group" aria-label="Tile selection grid">
       {tiles.map((tile, index) => {
         const isSelected = selectedTiles.includes(index);
         const label = tile.isShut 

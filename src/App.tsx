@@ -11,7 +11,6 @@ import {
   saveGameState,
   loadGameState,
   clearGameState,
-  hasSeenHelp,
   markHelpSeen,
   type SavedState,
 } from './lib/storage';
@@ -22,7 +21,7 @@ import { Controls } from './components/Controls';
 import { GameOver } from './components/GameOver';
 import { AdModal } from './components/AdModal';
 import { StuckModal } from './components/StuckModal';
-import { HelpModal } from './components/HelpModal';
+import { SplashScreen, HelpModal } from './components/HelpModal';
 import './App.css';
 
 import challengesData from '../challenges.json';
@@ -34,9 +33,18 @@ function App() {
   const [showAdModal, setShowAdModal] = useState(false);
   const [showStuckModal, setShowStuckModal] = useState(false);
   const [pendingStuckModal, setPendingStuckModal] = useState(false);
+  const [showSplash, setShowSplash] = useState(true);
   const [showHelpModal, setShowHelpModal] = useState(false);
 
   const activeDateKey = getActiveDateKey();
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setShowSplash(true);
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   useEffect(() => {
     const todayChallenges = challengesData as Record<string, Challenge>;
@@ -71,9 +79,6 @@ function App() {
         selectedTiles: saved.selectedTiles || [],
         isRolling: false,
       });
-      if (!hasSeenHelp()) {
-        setShowHelpModal(true);
-      }
     } else {
       clearGameState();
       setState({
@@ -87,9 +92,6 @@ function App() {
         selectedTiles: [],
         isRolling: false,
       });
-      if (!hasSeenHelp()) {
-        setShowHelpModal(true);
-      }
     }
   }, [activeDateKey]);
 
@@ -307,16 +309,20 @@ function App() {
     }
   }, [state, challenge]);
 
+  const handlePlay = useCallback(() => {
+    window.history.pushState({}, '');
+    setShowSplash(false);
+  }, []);
+
+  const handleSplashHelp = useCallback(() => {
+    setShowHelpModal(true);
+  }, []);
+
   if (error) {
     return (
       <div className="app">
-        <div className="error-screen">
-          <div className="header">
-            <h1 className="title">Lock 'n Roll</h1>
-            <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
-          </div>
-          <p className="error-message">{error}</p>
-        </div>
+        <h1 className="title">Lock 'n Roll</h1>
+        <p className="error-message">{error}</p>
       </div>
     );
   }
@@ -324,10 +330,7 @@ function App() {
   if (!state || !challenge) {
     return (
       <div className="app">
-        <div className="header">
-          <h1 className="title">Lock 'n Roll</h1>
-          <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
-        </div>
+        <div className="loading">Loading...</div>
       </div>
     );
   }
@@ -338,13 +341,24 @@ function App() {
   const canRoll = state.currentDice === null && !state.isComplete;
   const score = getScore(state.tileState);
 
+  if (showSplash) {
+    return (
+      <>
+        <SplashScreen 
+          date={activeDateKey} 
+          onPlay={handlePlay}
+          onHelp={handleSplashHelp}
+        />
+        {showHelpModal && (
+          <HelpModal onClose={() => setShowHelpModal(false)} />
+        )}
+      </>
+    );
+  }
+
   if (state.isComplete && state.result) {
     return (
       <div className="app">
-        <div className="header">
-          <h1 className="title">Lock 'n Roll</h1>
-          <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
-        </div>
         <GameOver
           result={state.result}
           score={score}
@@ -357,14 +371,7 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <div className="header">
-        <h1 className="title">Lock 'n Roll</h1>
-        <button className="help-btn" onClick={() => setShowHelpModal(true)}>?</button>
-      </div>
-      <div className="date">{activeDateKey}</div>
-      <div className="difficulty">{challenge.difficulty}</div>
-
+    <div className="app game-screen">
       <div className="status">
         <span>Rolls: {state.rollCount}</span>
         <span>Score: {score}</span>

@@ -18,7 +18,7 @@ export interface GameState {
 export interface Challenge {
   tiles: number[];
   seed: string;
-  difficulty: 'Normal' | 'Hard';
+  difficulty?: 'Normal' | 'Hard';
 }
 
 export interface Challenges {

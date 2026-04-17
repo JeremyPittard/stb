@@ -46,19 +46,19 @@ The burn button is hidden if the player has already used their burn.
 - `src/components/StuckModal.tsx:15-19` - Conditional rendering of burn button
 - `src/App.tsx:391-392` - Passes burnUsed to modal
 
-## Help Modal
+## Help Modal (Updated 2026-04-17)
 
-Added a "How to Play" modal explaining game rules.
+Replaced modal with full-screen splash. How to Play instructions now accessible via button on splash screen.
 
 **Implementation:**
-- New `HelpModal` component
-- Accessible via "?" button in header (top right)
-- Also accessible via footer link "How to Play"
+- SplashScreen component with Play and How to Play buttons
+- HelpModal still exists for inline help content
+- Browser back button returns to splash (via popstate listener)
+- Logo placeholder SVG added above title
 
 **Key code locations:**
-- `src/components/HelpModal.tsx` - Modal component
-- `src/App.tsx:308,321,338,355` - Help button in headers
-- `src/App.tsx:382` - Footer link
+- `src/components/HelpModal.tsx` - Contains both SplashScreen and HelpModal
+- `src/App.tsx` - Navigation state, popstate listener, history.pushState on play
 
 ## Privacy Policy
 
@@ -83,23 +83,51 @@ const cols = Math.ceil(Math.sqrt(n));
 const rows = Math.ceil(n / cols);
 ```
 
-## Grid Layout Bug Fix
+## Grid Layout (Updated 2026-04-17)
 
-Fixed incorrect grid layout calculation for 10 and 12 tiles.
+Fixed to always use 10 tiles in 3+3+3+1 layout using flexbox.
 
-**Problem:** Initial implementation used `gridRows = cols` which broke for non-square tile counts.
+**Solution:** Explicit tile width (108px) ensures exactly 3 per row.
 
-**Solution:** Calculate columns from square root, then rows from ceiling of tiles divided by columns.
+```css
+.tile-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  max-width: 360px;
+}
 
-```typescript
-const cols = Math.ceil(Math.sqrt(n));
-const rows = Math.ceil(n / cols);
+.tile {
+  width: 108px;
+  aspect-ratio: 1;
+}
 ```
 
-This ensures:
-- 9 tiles: 3×3 grid
-- 10 tiles: 4×3 grid (4 cols, 3 rows)
-- 12 tiles: 4×3 grid (4 cols, 3 rows)
+This creates:
+- 9 tiles: 3×3 grid (108px × 3 + 24px gaps = 360px)
+- Tile 10: centered below in its own row
+
+## Share Grid Layout (Updated 2026-04-17)
+
+Fixed share text grid to match the 3+3+3+1 game board layout instead of using dynamic grid calculation.
+
+**Solution:** Use fixed row slices matching the game layout:
+
+```tsx
+const rows = [
+  tiles.slice(0, 3),
+  tiles.slice(3, 6),
+  tiles.slice(6, 9),
+  tiles.slice(9, 10),
+];
+
+let gridStr = '';
+for (const row of rows) {
+  if (row.length === 0) break;
+  gridStr += row.map(t => t.isShut ? '█' : '▫').join(' ') + '\n';
+}
+```
 
 ## LocalStorage Persistence Bug
 
