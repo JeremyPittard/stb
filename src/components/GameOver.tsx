@@ -4,12 +4,11 @@ import type { Tile } from '../lib/game';
 interface GameOverProps {
   result: 'win' | 'bust';
   score: number;
-  burnUsed: boolean;
   tiles: Tile[];
   date: string;
 }
 
-export function GameOver({ result, score, burnUsed, tiles, date }: GameOverProps) {
+export function GameOver({ result, score, tiles, date }: GameOverProps) {
   const [copied, setCopied] = useState(false);
 
   const rows = [
@@ -27,7 +26,6 @@ export function GameOver({ result, score, burnUsed, tiles, date }: GameOverProps
   
   const shareText = `Lock 'n Roll ${date}
 Score: ${score} ${score === 0 ? '(WIN!)' : ''}
-${burnUsed ? '[Burn Used]' : '[Clean Run]'}
 ${gridStr}`;
 
   const handleCopy = () => {
@@ -46,10 +44,6 @@ ${gridStr}`;
         
         <div className="final-score">
           Score: {score}
-        </div>
-        
-        <div className="status-badge">
-          {burnUsed ? '[Burn Used]' : '[Clean Run]'}
         </div>
         
         <pre className="share-text">{shareText}</pre>

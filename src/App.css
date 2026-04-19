@@ -577,3 +577,55 @@ body {
 .footer-btn:hover {
   color: var(--fg);
 }
+
+.play-ad-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  padding: 40px 20px 60px;
+}
+
+.play-ad-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.play-ad-placeholder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.play-ad-slot {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 400px;
+  background: var(--bg-secondary);
+  border: 2px dashed var(--fg-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: var(--fg-dim);
+}
+
+.btn-continue {
+  width: 100%;
+  max-width: 400px;
+}

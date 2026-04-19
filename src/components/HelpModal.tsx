@@ -58,13 +58,8 @@ export function HelpModal({ onClose }: HelpModalProps) {
         </div>
 
         <div className="help-section">
-          <h3>Burn</h3>
-          <p>Use the Burn feature once per game to skip dice when stuck.</p>
-        </div>
-
-        <div className="help-section">
-          <h3>Winning</h3>
-          <p>Score 0 by shutting all tiles. A "Clean Run" means you won without Burn.</p>
+          <h3>Game Over</h3>
+          <p>If you can't make a move with the dice, your game ends. No continuations.</p>
         </div>
 
         <button className="btn btn-primary" onClick={onClose}>

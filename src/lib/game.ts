@@ -7,7 +7,6 @@ export interface GameState {
   activeDate: string;
   tileState: Tile[];
   rollCount: number;
-  burnUsed: boolean;
   isComplete: boolean;
   result: 'win' | 'bust' | null;
   currentDice: [number, number] | null;

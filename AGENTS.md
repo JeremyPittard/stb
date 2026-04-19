@@ -1,5 +1,7 @@
 # AGENTS.md - Lock 'n Roll Game
 
+**Compound Engineering**: This repo uses [Compound Engineering](https://compoundengineering.com) workflow. Documentation lives in `docs/solutions/`. Run `ce:compound-refresh` after major changes to keep docs aligned with code.
+
 ## Project Overview
 
 - **Type**: React/TypeScript/Vite web game
@@ -27,8 +29,10 @@ src/
 ## Game Logic
 
 - **Seeded PRNG**: Mulberry32 - same seed = same dice sequence
-- **Daily puzzles**: 365 challenges in challenges.json, verified solvable without burn
-- **Persistence**: localStorage saves tileState, rollCount, burnUsed, isComplete, result
+- **Daily puzzles**: 365 challenges in challenges.json
+- **Persistence**: localStorage saves tileState, rollCount, isComplete, result
+- **Game flow**: Click Play → see ad modal → click Continue → game starts
+- **Game over**: When no valid move possible, game ends immediately (no continuation)
 
 ## Common Tasks
 

@@ -14,14 +14,12 @@ import {
   markHelpSeen,
   type SavedState,
 } from './lib/storage';
-import { getAdConfig } from './lib/ads';
 import { TileGrid } from './components/TileGrid';
 import { Dice } from './components/Dice';
 import { Controls } from './components/Controls';
 import { GameOver } from './components/GameOver';
-import { AdModal } from './components/AdModal';
-import { StuckModal } from './components/StuckModal';
 import { SplashScreen, HelpModal } from './components/HelpModal';
+import { PlayAdModal } from './components/PlayAdModal';
 import './App.css';
 
 import challengesData from '../challenges.json';
@@ -30,11 +28,19 @@ function App() {
   const [state, setState] = useState<GameState | null>(null);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [showAdModal, setShowAdModal] = useState(false);
-  const [showStuckModal, setShowStuckModal] = useState(false);
-  const [pendingStuckModal, setPendingStuckModal] = useState(false);
   const [showSplash, setShowSplash] = useState(true);
+  const [showPlayAd, setShowPlayAd] = useState(false);
   const [showHelpModal, setShowHelpModal] = useState(false);
+
+  const handlePlay = useCallback(() => {
+    setShowPlayAd(true);
+  }, []);
+
+  const handleAdContinue = useCallback(() => {
+    setShowPlayAd(false);
+    setShowSplash(false);
+    window.history.pushState({}, '');
+  }, []);
 
   const activeDateKey = getActiveDateKey();
 
@@ -72,7 +78,6 @@ function App() {
         activeDate: saved.activeDate!,
         tileState: saved.tileState,
         rollCount: saved.rollCount || 0,
-        burnUsed: saved.burnUsed || false,
         isComplete: saved.isComplete || false,
         result: saved.result || null,
         currentDice: dice,
@@ -85,7 +90,6 @@ function App() {
         activeDate: activeDateKey,
         tileState: todayChallenge.tiles.map(value => ({ value, isShut: false })),
         rollCount: 0,
-        burnUsed: false,
         isComplete: false,
         result: null,
         currentDice: null,
@@ -101,7 +105,6 @@ function App() {
         activeDate: state.activeDate,
         tileState: state.tileState,
         rollCount: state.rollCount,
-        burnUsed: state.burnUsed,
         isComplete: state.isComplete,
         result: state.result,
         currentDice: state.currentDice,
@@ -134,11 +137,10 @@ function App() {
           rollCount: newRollCount,
           currentDice: dice,
           selectedTiles: [],
+          isComplete: true,
+          result: 'bust',
+          isRolling: false,
         }));
-        setPendingStuckModal(true);
-        setTimeout(() => {
-          setState(prev => prev && ({ ...prev, isRolling: false }));
-        }, 50);
         return;
       }
 
@@ -151,18 +153,11 @@ function App() {
 
       setTimeout(() => {
         setState(prev => prev && ({ ...prev, isRolling: false }));
-      }, 50);
-    }, 400);
+}, 50);
+    });
 
     return () => clearTimeout(timeout);
   }, [state?.isRolling]);
-
-  useEffect(() => {
-    if (pendingStuckModal && state && !state.isRolling) {
-      setShowStuckModal(true);
-      setPendingStuckModal(false);
-    }
-  }, [pendingStuckModal, state?.isRolling]);
 
   const handleToggleTile = useCallback((index: number) => {
     if (!state || !state.currentDice) return;
@@ -235,11 +230,11 @@ function App() {
           ...prev,
           rollCount: newRollCount,
           currentDice: newDice,
+          selectedTiles: [],
+          isComplete: true,
+          result: 'bust',
+          isRolling: false,
         }));
-        setPendingStuckModal(true);
-        setTimeout(() => {
-          setState(prev => prev && ({ ...prev, isRolling: false }));
-        }, 50);
         return;
       }
 
@@ -254,65 +249,6 @@ function App() {
       }, 50);
     }, 400);
   }, [state, challenge]);
-
-  const handleAdClose = useCallback((success: boolean) => {
-    setShowAdModal(false);
-    if (success && state && challenge) {
-      setState(prev => prev && ({ ...prev, isRolling: true }));
-
-      setTimeout(() => {
-        const newRollCount = state.rollCount + 1;
-        const allRolls = getDiceForSeed(challenge.seed, newRollCount);
-        const dice = allRolls[newRollCount - 1];
-        const diceSum = dice[0] + dice[1];
-
-        const newTileState = state.tileState;
-        const score = getScore(newTileState);
-        const isWin = score === 0;
-
-        const openTiles = newTileState.filter(t => !t.isShut).map(t => t.value);
-        const canMakeMove = findSolution(openTiles, diceSum);
-
-        if (isWin) {
-          setState(prev => prev && ({
-            ...prev,
-            rollCount: newRollCount,
-            currentDice: dice,
-            burnUsed: true,
-            selectedTiles: [],
-            isComplete: true,
-            result: 'win',
-            isRolling: false,
-          }));
-        } else if (!canMakeMove) {
-          setState(prev => prev && ({
-            ...prev,
-            rollCount: newRollCount,
-            currentDice: dice,
-            burnUsed: true,
-            selectedTiles: [],
-          }));
-          setPendingStuckModal(true);
-        } else {
-          setState(prev => prev && ({
-            ...prev,
-            rollCount: newRollCount,
-            currentDice: dice,
-            burnUsed: true,
-            selectedTiles: [],
-          }));
-          setTimeout(() => {
-            setState(prev => prev && ({ ...prev, isRolling: false }));
-          }, 50);
-        }
-      }, 400);
-    }
-  }, [state, challenge]);
-
-  const handlePlay = useCallback(() => {
-    window.history.pushState({}, '');
-    setShowSplash(false);
-  }, []);
 
   const handleSplashHelp = useCallback(() => {
     setShowHelpModal(true);
@@ -349,6 +285,9 @@ function App() {
           onPlay={handlePlay}
           onHelp={handleSplashHelp}
         />
+        {showPlayAd && (
+          <PlayAdModal onContinue={handleAdContinue} />
+        )}
         {showHelpModal && (
           <HelpModal onClose={() => setShowHelpModal(false)} />
         )}
@@ -362,7 +301,6 @@ function App() {
         <GameOver
           result={state.result}
           score={score}
-          burnUsed={state.burnUsed}
           tiles={state.tileState}
           date={activeDateKey}
         />
@@ -397,30 +335,6 @@ function App() {
         <button className="footer-btn" onClick={() => setShowHelpModal(true)}>How to Play</button>
         <a href="/privacy.html" target="_blank">Privacy Policy</a>
       </footer>
-
-      {showAdModal && (
-        <AdModal config={getAdConfig()} onClose={handleAdClose} />
-      )}
-
-      {showStuckModal && (
-        <StuckModal 
-          burnUsed={state?.burnUsed ?? false}
-          onBurn={() => {
-            if (!state?.burnUsed) {
-              setShowStuckModal(false);
-              setShowAdModal(true);
-            }
-          }} 
-          onEndGame={() => {
-            setState(prev => prev && ({
-              ...prev,
-              isComplete: true,
-              result: 'bust',
-            }));
-            setShowStuckModal(false);
-          }} 
-        />
-      )}
 
       {showHelpModal && (
         <HelpModal onClose={() => { setShowHelpModal(false); markHelpSeen(); }} />
