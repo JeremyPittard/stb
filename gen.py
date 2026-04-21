@@ -99,7 +99,6 @@ def main():
             seed = generate_seed()
             if can_solve_no_burn(tiles_tuple, seed):
                 challenges[date_key] = {
-                    'tiles': tiles,
                     'seed': seed,
                 }
                 ok_without_burn += 1
@@ -109,7 +108,6 @@ def main():
             # Fallback - just use any seed
             seed = generate_seed()
             challenges[date_key] = {
-                'tiles': tiles,
                 'seed': seed,
             }
             failed += 1

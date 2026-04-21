@@ -14,10 +14,16 @@ export interface GameState {
   isRolling: boolean;
 }
 
+export const DEFAULT_TILES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 export interface Challenge {
-  tiles: number[];
+  tiles?: number[];
   seed: string;
   difficulty?: 'Normal' | 'Hard';
+}
+
+export function getChallengeTiles(challenge: Challenge): number[] {
+  return challenge.tiles || DEFAULT_TILES;
 }
 
 export interface Challenges {
@@ -52,11 +58,18 @@ export class Mulberry32 {
   }
 }
 
+const DEV_ROLLS: [number, number][] = [
+  [3, 3], [3, 1], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6], [4, 6],
+];
+
 export function rollDice(prng: Mulberry32): [number, number] {
   return [prng.randint(1, 6), prng.randint(1, 6)];
 }
 
 export function getDiceForSeed(seed: string, count: number): [number, number][] {
+  if (import.meta.env.DEV) {
+    return DEV_ROLLS.slice(0, count);
+  }
   const prng = new Mulberry32(seedFromString(seed));
   const rolls: [number, number][] = [];
   for (let i = 0; i < count; i++) {

@@ -31,10 +31,10 @@ export function Dice({ dice, isRolling }: DiceProps) {
 
   useEffect(() => {
     const prev = prevDiceRef.current;
-    
+
     if (isRolling || (dice && prev !== null && dice !== prev)) {
       prevDiceRef.current = dice;
-      
+
       const interval = setInterval(() => {
         setDisplayDice([
           Math.floor(Math.random() * 6) + 1,
@@ -45,7 +45,7 @@ export function Dice({ dice, isRolling }: DiceProps) {
       setTimeout(() => {
         clearInterval(interval);
         if (dice) setDisplayDice(dice);
-      }, 600);
+      }, 1500);
 
       return () => clearInterval(interval);
     } else if (dice) {
