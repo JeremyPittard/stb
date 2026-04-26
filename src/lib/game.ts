@@ -58,17 +58,25 @@ export class Mulberry32 {
   }
 }
 
-const DEV_ROLLS: [number, number][] = [
-  [3, 3], [3, 1], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6], [4, 6],
-];
-
 export function rollDice(prng: Mulberry32): [number, number] {
   return [prng.randint(1, 6), prng.randint(1, 6)];
 }
 
 export function getDiceForSeed(seed: string, count: number): [number, number][] {
-  if (import.meta.env.DEV) {
-    return DEV_ROLLS.slice(0, count);
+  const useDevRolls = import.meta.env.VITE_USE_DEV_ROLLS === "true";
+  if (useDevRolls) {
+    const devRollsStr = import.meta.env.VITE_DEV_ROLLS || "3,3 3,1 3,2 3,3 3,4 3,5 3,6 4,6";
+    const devRolls: [number, number][] = devRollsStr
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s) => s)
+      .reduce<[number, number][]>((acc, val, i, arr) => {
+        if (i % 2 === 0) {
+          acc.push([parseInt(val), parseInt(arr[i + 1])]);
+        }
+        return acc;
+      }, []);
+    return devRolls.slice(0, count);
   }
   const prng = new Mulberry32(seedFromString(seed));
   const rolls: [number, number][] = [];

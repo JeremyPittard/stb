@@ -33,9 +33,16 @@ function App() {
   const [showPlayAd, setShowPlayAd] = useState(false);
   const [showHelpModal, setShowHelpModal] = useState(false);
 
+  const showAdByDefault = import.meta.env.VITE_SHOW_AD === "true";
   const handlePlay = useCallback(() => {
-    setShowPlayAd(true);
-  }, []);
+    if (showAdByDefault) {
+      setShowPlayAd(true);
+    } else {
+      setShowPlayAd(false);
+      setShowSplash(false);
+      window.history.pushState({}, "");
+    }
+  }, [showAdByDefault]);
 
   const handleAdContinue = useCallback(() => {
     setShowPlayAd(false);
