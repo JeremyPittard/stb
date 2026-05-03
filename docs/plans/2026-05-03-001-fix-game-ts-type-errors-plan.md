@@ -1,7 +1,7 @@
 ---
 title: fix TypeScript errors in game.ts dev rolls parsing
 type: fix
-status: active
+status: completed
 date: 2026-05-03
 ---
 
