@@ -67,15 +67,13 @@ export function getDiceForSeed(seed: string, count: number): [number, number][] 
   if (useDevRolls) {
     const devRollsStr = import.meta.env.VITE_DEV_ROLLS || "3,3 3,1 3,2 3,3 3,4 3,5 3,6 4,6";
     const devRolls: [number, number][] = devRollsStr
-      .split(",")
-      .map((s) => s.trim())
-      .filter((s) => s)
-      .reduce<[number, number][]>((acc, val, i, arr) => {
-        if (i % 2 === 0) {
-          acc.push([parseInt(val), parseInt(arr[i + 1])]);
-        }
-        return acc;
-      }, []);
+      .split(" ")
+      .map((s: string) => s.trim())
+      .filter((s: string) => s)
+      .map((pair: string) => {
+        const [a, b] = pair.split(",").map(Number);
+        return [a, b] as [number, number];
+      });
     return devRolls.slice(0, count);
   }
   const prng = new Mulberry32(seedFromString(seed));
