@@ -3,6 +3,8 @@ export interface Tile {
   isShut: boolean;
 }
 
+export const MAX_LIVES = 3;
+
 export interface GameState {
   activeDate: string;
   tileState: Tile[];
@@ -12,6 +14,8 @@ export interface GameState {
   currentDice: [number, number] | null;
   selectedTiles: number[];
   isRolling: boolean;
+  lives: number;
+  lifeJustLost: boolean;
 }
 
 export const DEFAULT_TILES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

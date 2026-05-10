@@ -1,10 +1,11 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import {
   getActiveDateKey,
   getDiceForSeed,
   findSolution,
   getScore,
   getChallengeTiles,
+  MAX_LIVES,
   type Challenge,
   type GameState,
 } from "./lib/game";
@@ -32,6 +33,7 @@ function App() {
   const [showSplash, setShowSplash] = useState<boolean | null>(null);
   const [showPlayAd, setShowPlayAd] = useState(false);
   const [showHelpModal, setShowHelpModal] = useState(false);
+  const autoRollRef = useRef(false);
 
   const showAdByDefault = import.meta.env.VITE_SHOW_AD === "true";
   const handlePlay = useCallback(() => {
@@ -95,6 +97,8 @@ function App() {
         currentDice: dice,
         selectedTiles: saved.selectedTiles || [],
         isRolling: false,
+        lives: saved.lives ?? MAX_LIVES,
+        lifeJustLost: false,
       });
     } else {
       clearGameState();
@@ -111,6 +115,8 @@ function App() {
         currentDice: null,
         selectedTiles: [],
         isRolling: false,
+        lives: MAX_LIVES,
+        lifeJustLost: false,
       });
     }
   }, [activeDateKey]);
@@ -125,13 +131,14 @@ function App() {
         result: state.result,
         currentDice: state.currentDice,
         selectedTiles: state.selectedTiles,
+        lives: state.lives,
       };
       saveGameState(savedState);
     }
   }, [state]);
 
   const handleRoll = useCallback(() => {
-    if (!state || !challenge || state.isRolling) return;
+    if (!state || !challenge || state.isRolling || autoRollRef.current) return;
     setState((prev) => prev && { ...prev, isRolling: true });
   }, [state, challenge]);
 
@@ -150,18 +157,31 @@ function App() {
       const canMakeMove = findSolution(openTiles, diceSum);
 
       if (!canMakeMove) {
-        setState(
-          (prev) =>
-            prev && {
+        const lostLife = state.lives > 1;
+        setState((prev) => {
+          if (!prev) return prev;
+          if (lostLife) {
+            return {
               ...prev,
               rollCount: newRollCount,
               currentDice: dice,
               selectedTiles: [],
-              isComplete: true,
-              result: "bust",
               isRolling: false,
-            },
-        );
+              lives: prev.lives - 1,
+              lifeJustLost: true,
+            };
+          }
+          return {
+            ...prev,
+            rollCount: newRollCount,
+            currentDice: dice,
+            selectedTiles: [],
+            isComplete: true,
+            result: "bust",
+            isRolling: false,
+            lives: 0,
+          };
+        });
         return;
       }
 
@@ -241,6 +261,8 @@ function App() {
       return;
     }
 
+    autoRollRef.current = true;
+
     setState(
       (prev) =>
         prev && {
@@ -248,11 +270,11 @@ function App() {
           tileState: newTileState,
           selectedTiles: [],
           currentDice: null,
-          isRolling: true,
         },
     );
 
     setTimeout(() => {
+      autoRollRef.current = false;
       const newRollCount = state.rollCount + 1;
       const allRolls = getDiceForSeed(challenge.seed, newRollCount);
       const newDice = allRolls[newRollCount - 1];
@@ -264,18 +286,31 @@ function App() {
       const canMakeMove = findSolution(openTiles, diceSum);
 
       if (!canMakeMove) {
-        setState(
-          (prev) =>
-            prev && {
+        const lostLife = state.lives > 1;
+        setState((prev) => {
+          if (!prev) return prev;
+          if (lostLife) {
+            return {
               ...prev,
               rollCount: newRollCount,
               currentDice: newDice,
               selectedTiles: [],
-              isComplete: true,
-              result: "bust",
               isRolling: false,
-            },
-        );
+              lives: prev.lives - 1,
+              lifeJustLost: true,
+            };
+          }
+          return {
+            ...prev,
+            rollCount: newRollCount,
+            currentDice: newDice,
+            selectedTiles: [],
+            isComplete: true,
+            result: "bust",
+            isRolling: false,
+            lives: 0,
+          };
+        });
         return;
       }
 
@@ -296,6 +331,15 @@ function App() {
 
   const handleSplashHelp = useCallback(() => {
     setShowHelpModal(true);
+  }, []);
+
+  const handleContinue = useCallback(() => {
+    setState((prev) => prev && {
+      ...prev,
+      lifeJustLost: false,
+      currentDice: null,
+      isRolling: true,
+    });
   }, []);
 
   if (error) {
@@ -368,8 +412,25 @@ function App() {
     <div className="app game-screen">
       <div className="status">
         <span>Rolls: {state.rollCount}</span>
+        <span>
+          Lives: {state.lives}/{MAX_LIVES}
+        </span>
         <span>Score: {score}</span>
       </div>
+
+      {state.lifeJustLost && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>No Moves</h2>
+            <p>Lives: {state.lives}/{MAX_LIVES}</p>
+            <div className="modal-buttons">
+              <button className="btn btn-primary" onClick={handleContinue}>
+                CONTINUE
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <Dice dice={state.currentDice} isRolling={state.isRolling} />
 

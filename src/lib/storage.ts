@@ -7,6 +7,7 @@ const STORAGE_KEYS = {
   RESULT: 'result',
   CURRENT_DICE: 'currentDice',
   SELECTED_TILES: 'selectedTiles',
+  LIVES: 'lives',
 } as const;
 
 export interface SavedState {
@@ -17,6 +18,7 @@ export interface SavedState {
   result: 'win' | 'bust' | null;
   currentDice: [number, number] | null;
   selectedTiles: number[];
+  lives: number;
 }
 
 export function saveGameState(state: SavedState): void {
@@ -27,6 +29,7 @@ export function saveGameState(state: SavedState): void {
   localStorage.setItem(STORAGE_KEYS.RESULT, state.result || '');
   localStorage.setItem(STORAGE_KEYS.CURRENT_DICE, state.currentDice ? JSON.stringify(state.currentDice) : '');
   localStorage.setItem(STORAGE_KEYS.SELECTED_TILES, JSON.stringify(state.selectedTiles));
+  localStorage.setItem(STORAGE_KEYS.LIVES, String(state.lives));
 }
 
 export function loadGameState(): SavedState | null {
@@ -37,6 +40,7 @@ export function loadGameState(): SavedState | null {
   const result = localStorage.getItem(STORAGE_KEYS.RESULT);
   const currentDiceStr = localStorage.getItem(STORAGE_KEYS.CURRENT_DICE);
   const selectedTilesStr = localStorage.getItem(STORAGE_KEYS.SELECTED_TILES);
+  const livesStr = localStorage.getItem(STORAGE_KEYS.LIVES);
 
   if (!tileStateStr) return null;
 
@@ -48,6 +52,7 @@ export function loadGameState(): SavedState | null {
     result: (result as 'win' | 'bust' | null) || null,
     currentDice: currentDiceStr ? JSON.parse(currentDiceStr) : null,
     selectedTiles: selectedTilesStr ? JSON.parse(selectedTilesStr) : [],
+    lives: livesStr ? parseInt(livesStr, 10) : 3,
   };
 }
 
